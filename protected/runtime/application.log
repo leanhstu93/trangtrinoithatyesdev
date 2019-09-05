@@ -6610,3 +6610,2279 @@ Stack trace:
 #13 {main}
 REQUEST_URI=/
 ---
+2019/09/05 21:42:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 21:42:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/login/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/login/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/login/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/login/css/font-awesome.min.css
+---
+2019/09/05 21:42:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:42:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:42:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:44:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:44:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:44:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:45:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:45:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:45:13 [warning] [application] Failed to set unsafe attribute "alias" of "SinglePage".
+in C:\xampp\htdocs\public_html\protected\modules\admin\controllers\SinglePageController.php (116)
+in C:\xampp\htdocs\public_html\index.php (14)
+2019/09/05 21:45:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:45:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 21:45:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:45:31 [warning] [application] Failed to set unsafe attribute "alias" of "SinglePage".
+in C:\xampp\htdocs\public_html\protected\modules\admin\controllers\SinglePageController.php (116)
+in C:\xampp\htdocs\public_html\index.php (14)
+2019/09/05 21:45:31 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:45:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 21:45:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:46:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:46:17 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE alias = 'tranh-3d' AND id !=  LIMIT 1.
+in C:\xampp\htdocs\public_html\protected\modules\admin\controllers\LoaisanphamLangController.php (131)
+in C:\xampp\htdocs\public_html\index.php (14)
+2019/09/05 21:46:17 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE alias = 'tranh-3d' AND id !=  LIMIT 1 in C:\xampp\htdocs\public_html\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\public_html\protected\modules\admin\controllers\LoaisanphamLangController.php(131): CActiveRecord->find('alias = 'tranh-...')
+#4 [internal function]: LoaisanphamLangController->actionUpdate('30')
+#5 C:\xampp\htdocs\public_html\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(LoaisanphamLangController), Array)
+#6 C:\xampp\htdocs\public_html\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(LoaisanphamLangController), Object(ReflectionMethod), Array)
+#7 C:\xampp\htdocs\public_html\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\public_html\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\public_html\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\public_html\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\public_html\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\public_html\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\public_html\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\public_html\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(282): CController->run('update')
+#16 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/loaisanph...')
+#17 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#19 {main}
+REQUEST_URI=/admin/sua-loai-san-pham/30.html
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/admin/sua-loai-san-pham/30.html
+---
+2019/09/05 21:47:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:47:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:47:27 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE alias = 'pvc-van-da' AND id !=  LIMIT 1.
+in C:\xampp\htdocs\public_html\protected\modules\admin\controllers\LoaisanphamLangController.php (131)
+in C:\xampp\htdocs\public_html\index.php (14)
+2019/09/05 21:47:27 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE alias = 'pvc-van-da' AND id !=  LIMIT 1 in C:\xampp\htdocs\public_html\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\public_html\protected\modules\admin\controllers\LoaisanphamLangController.php(131): CActiveRecord->find('alias = 'pvc-va...')
+#4 [internal function]: LoaisanphamLangController->actionUpdate('29')
+#5 C:\xampp\htdocs\public_html\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(LoaisanphamLangController), Array)
+#6 C:\xampp\htdocs\public_html\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(LoaisanphamLangController), Object(ReflectionMethod), Array)
+#7 C:\xampp\htdocs\public_html\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\public_html\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\public_html\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\public_html\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\public_html\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\public_html\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\public_html\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\public_html\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(282): CController->run('update')
+#16 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/loaisanph...')
+#17 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#19 {main}
+REQUEST_URI=/admin/sua-loai-san-pham/29.html
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/admin/sua-loai-san-pham/29.html
+---
+2019/09/05 21:47:34 [error] [exception.Error] Error: Call to a member function delete() on null in C:\xampp\htdocs\public_html\protected\models\Router.php:149
+Stack trace:
+#0 C:\xampp\htdocs\public_html\protected\modules\admin\controllers\LoaisanphamLangController.php(171): Router::processRouter(Array, 'delete')
+#1 [internal function]: LoaisanphamLangController->actionDelete('30')
+#2 C:\xampp\htdocs\public_html\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(LoaisanphamLangController), Array)
+#3 C:\xampp\htdocs\public_html\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(LoaisanphamLangController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\public_html\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\public_html\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\public_html\framework\web\CController.php(1116): CFilterChain->run()
+#7 C:\xampp\htdocs\public_html\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#8 C:\xampp\htdocs\public_html\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\xampp\htdocs\public_html\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\public_html\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\public_html\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\public_html\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\public_html\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\public_html\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(282): CController->run('delete')
+#16 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/Loaisanph...')
+#17 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#19 {main}
+REQUEST_URI=/admin/LoaisanphamLang/delete/id/30.html?ajax=post-grid
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/admin/quan-ly-loai-san-pham.html
+---
+2019/09/05 21:48:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:48:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:48:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:48:53 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:48:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:49:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:49:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:49:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:49:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:49:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:49:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:50:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:50:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:50:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:50:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:50:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:50:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:51:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:51:15 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:51:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:51:37 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:51:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:51:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:52:08 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:52:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:52:35 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:52:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:53:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:53:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:54:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:54:33 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:54:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:54:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 21:54:43 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1.
+in C:\xampp\htdocs\public_html\protected\views\site\home-page4.php (3)
+in C:\xampp\htdocs\public_html\protected\views\site\index.php (31)
+in C:\xampp\htdocs\public_html\protected\controllers\SiteController.php (173)
+2019/09/05 21:54:43 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1 in C:\xampp\htdocs\public_html\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\public_html\protected\views\site\home-page4.php(3): CActiveRecord->find('idObject =  AND...')
+#4 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\public_html\protected\views\site\index.php(31): CController->renderPartial('home-page4')
+#8 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\public_html\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#12 C:\xampp\htdocs\public_html\protected\controllers\SiteController.php(173): CController->render('index')
+#13 C:\xampp\htdocs\public_html\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\public_html\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\public_html\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\public_html\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#21 {main}
+REQUEST_URI=/
+---
+2019/09/05 22:04:46 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1.
+in C:\xampp\htdocs\public_html\protected\views\site\home-page4.php (3)
+in C:\xampp\htdocs\public_html\protected\views\site\index.php (31)
+in C:\xampp\htdocs\public_html\protected\controllers\SiteController.php (173)
+2019/09/05 22:04:46 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1 in C:\xampp\htdocs\public_html\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\public_html\protected\views\site\home-page4.php(3): CActiveRecord->find('idObject =  AND...')
+#4 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\public_html\protected\views\site\index.php(31): CController->renderPartial('home-page4')
+#8 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\public_html\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#12 C:\xampp\htdocs\public_html\protected\controllers\SiteController.php(173): CController->render('index')
+#13 C:\xampp\htdocs\public_html\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\public_html\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\public_html\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\public_html\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#21 {main}
+REQUEST_URI=/
+---
+2019/09/05 22:04:47 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1.
+in C:\xampp\htdocs\public_html\protected\views\site\home-page4.php (3)
+in C:\xampp\htdocs\public_html\protected\views\site\index.php (31)
+in C:\xampp\htdocs\public_html\protected\controllers\SiteController.php (173)
+2019/09/05 22:04:47 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1 in C:\xampp\htdocs\public_html\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\public_html\protected\views\site\home-page4.php(3): CActiveRecord->find('idObject =  AND...')
+#4 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\public_html\protected\views\site\index.php(31): CController->renderPartial('home-page4')
+#8 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\public_html\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#12 C:\xampp\htdocs\public_html\protected\controllers\SiteController.php(173): CController->render('index')
+#13 C:\xampp\htdocs\public_html\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\public_html\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\public_html\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\public_html\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#21 {main}
+REQUEST_URI=/
+---
+2019/09/05 22:04:47 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1.
+in C:\xampp\htdocs\public_html\protected\views\site\home-page4.php (3)
+in C:\xampp\htdocs\public_html\protected\views\site\index.php (31)
+in C:\xampp\htdocs\public_html\protected\controllers\SiteController.php (173)
+2019/09/05 22:04:47 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1 in C:\xampp\htdocs\public_html\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\public_html\protected\views\site\home-page4.php(3): CActiveRecord->find('idObject =  AND...')
+#4 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\public_html\protected\views\site\index.php(31): CController->renderPartial('home-page4')
+#8 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\public_html\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#12 C:\xampp\htdocs\public_html\protected\controllers\SiteController.php(173): CController->render('index')
+#13 C:\xampp\htdocs\public_html\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\public_html\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\public_html\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\public_html\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#21 {main}
+REQUEST_URI=/
+---
+2019/09/05 22:04:48 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1.
+in C:\xampp\htdocs\public_html\protected\views\site\home-page4.php (3)
+in C:\xampp\htdocs\public_html\protected\views\site\index.php (31)
+in C:\xampp\htdocs\public_html\protected\controllers\SiteController.php (173)
+2019/09/05 22:04:48 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1 in C:\xampp\htdocs\public_html\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\public_html\protected\views\site\home-page4.php(3): CActiveRecord->find('idObject =  AND...')
+#4 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\public_html\protected\views\site\index.php(31): CController->renderPartial('home-page4')
+#8 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\public_html\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#12 C:\xampp\htdocs\public_html\protected\controllers\SiteController.php(173): CController->render('index')
+#13 C:\xampp\htdocs\public_html\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\public_html\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\public_html\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\public_html\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#21 {main}
+REQUEST_URI=/
+---
+2019/09/05 22:04:57 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1.
+in C:\xampp\htdocs\public_html\protected\views\site\home-page4.php (3)
+in C:\xampp\htdocs\public_html\protected\views\site\index.php (31)
+in C:\xampp\htdocs\public_html\protected\controllers\SiteController.php (173)
+2019/09/05 22:04:57 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1 in C:\xampp\htdocs\public_html\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\public_html\protected\views\site\home-page4.php(3): CActiveRecord->find('idObject =  AND...')
+#4 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\public_html\protected\views\site\index.php(31): CController->renderPartial('home-page4')
+#8 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\public_html\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#12 C:\xampp\htdocs\public_html\protected\controllers\SiteController.php(173): CController->render('index')
+#13 C:\xampp\htdocs\public_html\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\public_html\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\public_html\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\public_html\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#21 {main}
+REQUEST_URI=/
+---
+2019/09/05 22:04:57 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1.
+in C:\xampp\htdocs\public_html\protected\views\site\home-page4.php (3)
+in C:\xampp\htdocs\public_html\protected\views\site\index.php (31)
+in C:\xampp\htdocs\public_html\protected\controllers\SiteController.php (173)
+2019/09/05 22:04:57 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1 in C:\xampp\htdocs\public_html\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\public_html\protected\views\site\home-page4.php(3): CActiveRecord->find('idObject =  AND...')
+#4 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\public_html\protected\views\site\index.php(31): CController->renderPartial('home-page4')
+#8 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\public_html\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#12 C:\xampp\htdocs\public_html\protected\controllers\SiteController.php(173): CController->render('index')
+#13 C:\xampp\htdocs\public_html\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\public_html\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\public_html\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\public_html\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#21 {main}
+REQUEST_URI=/
+---
+2019/09/05 22:04:58 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1.
+in C:\xampp\htdocs\public_html\protected\views\site\home-page4.php (3)
+in C:\xampp\htdocs\public_html\protected\views\site\index.php (31)
+in C:\xampp\htdocs\public_html\protected\controllers\SiteController.php (173)
+2019/09/05 22:04:58 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1 in C:\xampp\htdocs\public_html\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\public_html\protected\views\site\home-page4.php(3): CActiveRecord->find('idObject =  AND...')
+#4 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\public_html\protected\views\site\index.php(31): CController->renderPartial('home-page4')
+#8 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\public_html\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#12 C:\xampp\htdocs\public_html\protected\controllers\SiteController.php(173): CController->render('index')
+#13 C:\xampp\htdocs\public_html\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\public_html\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\public_html\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\public_html\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#21 {main}
+REQUEST_URI=/
+---
+2019/09/05 22:04:58 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1.
+in C:\xampp\htdocs\public_html\protected\views\site\home-page4.php (3)
+in C:\xampp\htdocs\public_html\protected\views\site\index.php (31)
+in C:\xampp\htdocs\public_html\protected\controllers\SiteController.php (173)
+2019/09/05 22:04:58 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1 in C:\xampp\htdocs\public_html\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\public_html\protected\views\site\home-page4.php(3): CActiveRecord->find('idObject =  AND...')
+#4 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\public_html\protected\views\site\index.php(31): CController->renderPartial('home-page4')
+#8 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\public_html\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#12 C:\xampp\htdocs\public_html\protected\controllers\SiteController.php(173): CController->render('index')
+#13 C:\xampp\htdocs\public_html\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\public_html\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\public_html\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\public_html\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#21 {main}
+REQUEST_URI=/
+---
+2019/09/05 22:05:18 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1.
+in C:\xampp\htdocs\public_html\protected\views\site\home-page4.php (3)
+in C:\xampp\htdocs\public_html\protected\views\site\index.php (31)
+in C:\xampp\htdocs\public_html\protected\controllers\SiteController.php (173)
+2019/09/05 22:05:18 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1 in C:\xampp\htdocs\public_html\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\public_html\protected\views\site\home-page4.php(3): CActiveRecord->find('idObject =  AND...')
+#4 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\public_html\protected\views\site\index.php(31): CController->renderPartial('home-page4')
+#8 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\public_html\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#12 C:\xampp\htdocs\public_html\protected\controllers\SiteController.php(173): CController->render('index')
+#13 C:\xampp\htdocs\public_html\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\public_html\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\public_html\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\public_html\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#21 {main}
+REQUEST_URI=/
+---
+2019/09/05 22:05:26 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1.
+in C:\xampp\htdocs\public_html\protected\views\site\home-page4.php (3)
+in C:\xampp\htdocs\public_html\protected\views\site\index.php (31)
+in C:\xampp\htdocs\public_html\protected\controllers\SiteController.php (173)
+2019/09/05 22:05:26 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND type = 7 LIMIT 1' at line 1. The SQL statement executed was: SELECT * FROM `router` `t` WHERE idObject =  AND type = 7 LIMIT 1 in C:\xampp\htdocs\public_html\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 C:\xampp\htdocs\public_html\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 C:\xampp\htdocs\public_html\protected\views\site\home-page4.php(3): CActiveRecord->find('idObject =  AND...')
+#4 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\public_html\protected\views\site\index.php(31): CController->renderPartial('home-page4')
+#8 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\public_html\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#12 C:\xampp\htdocs\public_html\protected\controllers\SiteController.php(173): CController->render('index')
+#13 C:\xampp\htdocs\public_html\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\public_html\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\public_html\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\public_html\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#21 {main}
+REQUEST_URI=/
+---
+2019/09/05 22:06:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:06:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:06:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:06:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:06:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:06:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:06:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:06:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:31:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:31:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:32:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:32:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:33:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:34:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+---
+2019/09/05 22:34:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+---
+2019/09/05 22:35:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/animate.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/animate.css')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/animate.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/animate.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/animate.css')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/animate.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/animate.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/animate.css')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/animate.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/animate.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/animate.css')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/animate.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/animate.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/animate.css')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/animate.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/animate.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/animate.css')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/animate.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:40 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/animatescroll.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/animatescrol...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/animatescroll.js
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/custom.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/custom.js')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/custom.js?v=1.1
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/animate.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/animate.css')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/animate.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap-rating.min.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap-ra...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap-rating.min.js
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/animatescroll.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/animatescrol...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/animatescroll.js
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/custom.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/custom.js')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/custom.js?v=1.1
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap-rating.min.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap-ra...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap-rating.min.js
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:56 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/animatescroll.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/animatescrol...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/animatescroll.js
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/custom.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/custom.js')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/custom.js?v=1.1
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/animate.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/animate.css')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/animate.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap-rating.min.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap-ra...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap-rating.min.js
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/animatescroll.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/animatescrol...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/animatescroll.js
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/custom.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/custom.js')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/custom.js?v=1.1
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/animatescroll.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/animatescrol...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/animatescroll.js
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/custom.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/custom.js')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/custom.js?v=1.1
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/animate.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/animate.css')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/animate.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap-rating.min.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap-ra...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap-rating.min.js
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/animatescroll.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/animatescrol...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/animatescroll.js
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/custom.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/custom.js')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/custom.js?v=1.1
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/custom.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/custom.js')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/custom.js?v=1.1
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/animate.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/animate.css')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/animate.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/animatescroll.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/animatescrol...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/animatescroll.js
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap-rating.min.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap-ra...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap-rating.min.js
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/animatescroll.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/animatescrol...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/animatescroll.js
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/custom.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/custom.js')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/custom.js?v=1.1
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "libs/bootstrap-modal/bootstrap-responsive.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('libs/bootstrap-...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/libs/bootstrap-modal/bootstrap-responsive.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/bootstrap-rating.min.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/bootstrap-ra...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/bootstrap-rating.min.js
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:35:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap-rating.css". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap-r...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/css/bootstrap-rating.css
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 22:36:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "js/custom.js". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('js/custom.js')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/custom.js?v=1.1
+---
+2019/09/05 22:37:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:04:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:04:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:05:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:05:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:05:19 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:05:31 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:05:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:05:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:05:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:05:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:06:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:06:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:06:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:06:26 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:06:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:06:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:09:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:12:01 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:12:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:12:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:14:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:17:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:18:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:20:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:21:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:22:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:25:26 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:26:46 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:27:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:28:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:29:57 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:30:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:30:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:30:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:31:03 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:31:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:32:52 [error] [exception.Error] Error: Call to undefined function debug() in C:\xampp\htdocs\public_html\protected\models\Custom.php:103
+Stack trace:
+#0 C:\xampp\htdocs\public_html\protected\models\Hinhanh.php(122): Custom::getSettingcustom()
+#1 C:\xampp\htdocs\public_html\themes\frontend\views\layouts\header.php(2): Hinhanh::getDataByCustomSetting('header')
+#2 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\public_html\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\public_html\themes\frontend\views\layouts\main.php(35): CController->renderPartial('//layouts/heade...')
+#6 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\public_html\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\public_html\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\public_html\protected\controllers\SiteController.php(173): CController->render('index')
+#10 C:\xampp\htdocs\public_html\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#11 C:\xampp\htdocs\public_html\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\public_html\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\public_html\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(282): CController->run('')
+#15 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#16 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#18 {main}
+REQUEST_URI=/
+---
+2019/09/05 23:40:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "images/iconhome.png". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('images/iconhome...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/iconhome.png
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/
+---
+2019/09/05 23:41:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:41:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:41:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:44:44 [warning] [application] Failed to set unsafe attribute "alias" of "SinglePage".
+in C:\xampp\htdocs\public_html\protected\modules\admin\controllers\SinglePageController.php (72)
+in C:\xampp\htdocs\public_html\index.php (14)
+2019/09/05 23:44:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:44:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:44:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---
+2019/09/05 23:45:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "themes/admin/fonts/fontawesome-webfont.woff2". in C:\xampp\htdocs\public_html\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\public_html\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/admin/fo...')
+#1 C:\xampp\htdocs\public_html\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\public_html\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/themes/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+HTTP_REFERER=http://trangtrinoithatyesdev.com:81/themes/admin/css/font-awesome.min.css
+---

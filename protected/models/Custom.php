@@ -100,10 +100,12 @@ class Custom extends CActiveRecord
 	public static function getSettingcustom()
     {
         $custom = Yii::app()->params['settingTemplate'];
+
         $model=Custom::model()->findByPk(1);
 
         if(!empty(json_decode($model->data))) {
             $custom = array_replace_recursive($custom, json_decode($model->data,true));
+
         }
         return $custom;
     }
