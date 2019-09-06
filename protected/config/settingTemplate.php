@@ -28,7 +28,7 @@
                 'name' => 'Danh mục bài viết ở cột 2 footer',
                 'data' => 1,
                 'note' => '',
-                'limit' => 1
+                'limit' => 4
             ],
         ]
         #END setting danh muc bai viet

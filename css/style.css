@@ -47,10 +47,10 @@ header .right .grp span{font-size: 110%}
 header .left .logo img{vertical-align: middle;margin-right: 3%}
 header .left .logo span{font-size: 120%; text-transform: uppercase;display: inline-block;    position: relative;
     top: 5px;}
-footer{background: #2e363a;padding: 2% 0;margin-top: 5%}
-footer li{list-style: none;}
-footer *{color: #cdcdcd}
-footer .col3{width: calc(100% / 3);float: left;color: white}
+footer{background: #db5311;padding: 2% 0;margin-top: 5%}
+
+footer *{color: white}
+footer .col3{width: calc(100% / 3);float: left;color: white;padding-right: 30px}
 footer .grp-col3{width: 100%;float: left; margin-bottom: 2%; padding-bottom: 1%;border-bottom: 1px solid white}
 footer .grp-col4{width: 100%;float: left;}
 footer .grp-col4 .col4{line-height: 24px;text-align: justify;width: calc(94% / 4);float: left;margin-right: 2%}
@@ -65,6 +65,16 @@ footer .grp-col3 i{    width: 30px;
     border-radius: 50%;
     text-align: center;
     line-height: 30px; color: white;font-size: 14px;vertical-align: inherit}
+footer .col3 h3{
+    font-weight: normal;
+    font-size: 150%;
+    margin-bottom: 25px;
+}
+footer .col3 li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
 .wrap-loaitin .page-cate{width: 79%;float: left; padding-left: 2%;}
 .right.page-news-detail {
     width: 79%;

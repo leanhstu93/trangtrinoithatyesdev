@@ -2,15 +2,35 @@
     <div class="w1000">
         <div class="grp-col3">
             <div class="col3">
-                <div class="content w100 txt">
-
+                <?php
+                $data = SinglePage::getDataByCustomSetting('one_footer');
+                ?>
+                <h3> <?php echo html_entity_decode($data->name) ?> </h3>
+                <div class="content w100 text">
+                    <?php echo html_entity_decode($data->content) ?>
                 </div>
             </div>
             <div class="col3">
-                <i class="fa fa-phone tada" aria-hidden="true"></i> <span><a href="tel:0973841766">0973841766</a> <br><a href="tel:0949842378">0949842378</a> </span>
+                <div class="content w100 txt">
+                    <?php
+                    $newsCategpry = Loaitin::getDataByCustomSetting('footer_col_2');
+                    ?>
+                    <h3><?php echo $newsCategpry->category->loaitin_lang->Name ?></h3>
+                    <ul>
+                    <?php
+                       foreach ($newsCategpry->post as $item){
+                    ?>
+                            <li>
+                                <a href="<?php echo Common::buildUrl($item->tintuc_lang->id,Router::TYPE_NEWS) ;?>">
+                                    <?php echo html_entity_decode($item->tintuc_lang->Name) ?>
+                                </a>
+                            </li>
+                        <?php } ?>
+                    </ul>
+                </div>
             </div>
             <div class="col3">
-                <i class="fa fa-map-marker" aria-hidden="true"></i> <?php echo $this->ttc->Address  ?>
+
             </div>
         </div>
     </div>
