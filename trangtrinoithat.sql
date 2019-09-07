@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th9 05, 2019 lúc 06:46 PM
+-- Thời gian đã tạo: Th9 06, 2019 lúc 04:37 PM
 -- Phiên bản máy phục vụ: 10.3.16-MariaDB
 -- Phiên bản PHP: 7.2.20
 
@@ -771,7 +771,11 @@ INSERT INTO `router` (`id`, `idObject`, `alias`, `type`, `active`) VALUES
 (19, 1, 'dich-vu', 7, 1),
 (20, 3, 'tin-tuc', 7, 1),
 (21, 19, 'san-pham', 3, 1),
-(22, 13, 'thong-tin-cong-ty', 9, 1);
+(22, 13, 'thong-tin-cong-ty', 9, 1),
+(23, 1, 'giai-quyet-khieu-nai', 5, 1),
+(24, 3, 'huong-dan-mua-hang', 5, 1),
+(25, 5, 'chinh-sach-doi-tra', 5, 1),
+(26, 7, 'cham-soc-khach-hang', 5, 1);
 
 -- --------------------------------------------------------
 
@@ -1039,6 +1043,16 @@ CREATE TABLE `tintuc` (
   `Active` tinyint(1) DEFAULT 1
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Đang đổ dữ liệu cho bảng `tintuc`
+--
+
+INSERT INTO `tintuc` (`id`, `idNguoiDang`, `idLoaiTin`, `idTags`, `UrlImage`, `NguoiDang`, `Date`, `SetHome`, `set_care`, `Seo_Keywords`, `Seo_Description`, `mo_rong`, `ViewCount`, `Active`) VALUES
+(1, 4, 1, '[0]', 'aaa', NULL, 1567779649, 0, 0, '', '', '', NULL, 1),
+(2, 4, 1, '[0]', 'bbbb', NULL, 1567779666, 0, 0, '', '', '', NULL, 1),
+(3, 4, 1, '[0]', 'bbb', NULL, 1567779683, 0, 0, '', '', '', NULL, 1),
+(4, 4, 1, '[0]', 'ff', NULL, 1567779698, 0, 0, '', '', '', NULL, 1);
+
 -- --------------------------------------------------------
 
 --
@@ -1054,6 +1068,20 @@ CREATE TABLE `tintuc_lang` (
   `Description` text CHARACTER SET utf8 DEFAULT NULL,
   `Content` text CHARACTER SET utf8 DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Đang đổ dữ liệu cho bảng `tintuc_lang`
+--
+
+INSERT INTO `tintuc_lang` (`id`, `idNgonNgu`, `idTinTuc`, `Name`, `Alias`, `Description`, `Content`) VALUES
+(1, 1, 1, 'Giải quyết khiếu nại', 'giai-quyet-khieu-nai', '', ''),
+(2, 2, 1, '1', '1', '', ''),
+(3, 1, 2, 'Hướng dẫn mua hàng', 'huong-dan-mua-hang', '', ''),
+(4, 2, 2, '2', '2', '', ''),
+(5, 1, 3, 'Chính sách đổi trả', 'chinh-sach-doi-tra', '', ''),
+(6, 2, 3, '3', '3', '', ''),
+(7, 1, 4, 'Chăm sóc khách hàng', 'cham-soc-khach-hang', '', ''),
+(8, 2, 4, '4', '4', '', '');
 
 -- --------------------------------------------------------
 
@@ -1533,7 +1561,7 @@ ALTER TABLE `role_permission`
 -- AUTO_INCREMENT cho bảng `router`
 --
 ALTER TABLE `router`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT cho bảng `sanpham`
@@ -1599,13 +1627,13 @@ ALTER TABLE `thumbnails`
 -- AUTO_INCREMENT cho bảng `tintuc`
 --
 ALTER TABLE `tintuc`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT cho bảng `tintuc_lang`
 --
 ALTER TABLE `tintuc_lang`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT cho bảng `video`
