@@ -411,9 +411,9 @@ public static function menudacap4($id,$model ="Loaisanpham",$idnn)
 				echo $li_open;
 			else
 				echo $li_open_;
-			echo '<a href="'.Yii::app()->request->baseUrl.'/loai-san-pham/'.$data->loaisanpham_lang->Alias.'.html">'.$data->loaisanpham_lang->Name.'</a>';
+            $router = Router::model()->find("idObject = " . $data->loaisanpham_lang->id . " AND type = " . Router::TYPE_PRODUCT_CATEGORY);
+			echo '<a href="/'.$router->alias.'.html">'.$data->loaisanpham_lang->Name.'</a>';
 			//kiem tra co menu con hay k, neu co thi goi lai
-			
 			if($count > 0)
 			{
 				echo $ul_open;

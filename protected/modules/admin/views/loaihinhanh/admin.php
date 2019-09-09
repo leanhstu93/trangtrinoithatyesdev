@@ -60,7 +60,7 @@
                                         'delete' => array(
                                             'label' => '',
                                             'imageUrl' => '',
-                                            'url'=>'Yii::app()->homeUrl."admin/hinhanh/delete/id/".$data->id.".html"',
+                                            'url'=>'Yii::app()->homeUrl."admin/loaihinhanh/delete/id/".$data->id.".html"',
                                             'options' => array('class' => 'fa fa-trash-o'),
                                             'click' => 'function() {
                                                     var url = jQuery(this).attr("href");

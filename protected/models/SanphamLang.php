@@ -70,7 +70,7 @@ class SanphamLang extends CActiveRecord
 			'idSP' => 'Id Sp',
 			'idNgonNgu' => 'Ngôn ngữ',
 			'BaoHanh' => 'Bảo hành',
-			'Name' => 'Tên dịch vụ',
+			'Name' => 'Tên sản phẩm',
 			'NameShort' => 'Tên menu',
 			'Alias' => 'Alias',
 			'Youtube' => 'Youtube',

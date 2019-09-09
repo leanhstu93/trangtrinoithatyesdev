@@ -104,20 +104,11 @@ return array(
 				'maxacthuc' => 'site/maxacthuc',
 				'tim-kiem' => 'site/timkiem',
 				'quan-ly-tai-khoan/<id>' => 'site/quanlytaikhoan',
-				'san-pham' => 'site/loaisp',
 				'lien-he' => 'site/lienhe',
 				'giai-phap' =>'site/giaiphap',
 				'tin-tuc/<alias>' => 'site/Chitiet' ,
 				'loai-tin/<alias>' => 'site/loaitin',
 				'loai-tin' => 'site/loaitin',
-
-				'rao-vat' => 'site/raovat',
-				'rao-vat/<alias>' => 'site/xemraovat',
-				'khach-hang' => 'site/khachhang',
-				'khach-hang/<alias>' => 'site/khachhang',
-				'sp/<alias>' => 'site/sanpham',
-				'loai-san-pham/<alias>' => 'site/loaisp',
-
 				'lien-he' =>'site/lienhe',
 				'Languagechange/<lang>' => 'site/languagechange',
 

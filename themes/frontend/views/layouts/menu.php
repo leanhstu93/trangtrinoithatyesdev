@@ -6,7 +6,10 @@
 <div id='cssmenu' class="w100">
 <ul>
    <!--<li><a class="active home" href='#'></a></li>-->
-   <li ><a class="active" href='/'> <img src="/images/iconhome.png"></a></li>
+   <li ><a class="active" href='/'>
+           Trang chủ
+       </a>
+   </li>
    <?php
    $criteria = new CDbCriteria();
    $criteria->with = "gioithieu_lang";
@@ -51,9 +54,8 @@
       
      ?>
     <li ><a class="active" href='/lien-he.html'> Liên hệ</a></li>
-    <li class="li-wrp-search">
-        <input type="text" placeholder="Tìm kiếm sản phẩm">
-        <i class="fa fa-search" aria-hidden="true"></i>
+    <li class="txt-hotline">
+       HOTLINE: 079 679 1968
     </li>
 </ul>
 </div>

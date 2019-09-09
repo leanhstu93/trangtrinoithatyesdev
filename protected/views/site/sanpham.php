@@ -1,144 +1,83 @@
-<main>
-    <div class="hd-container">
-        <div class="mainpage">
+<section class="wrap-prodetail w100 wrap-loaitin">
+    <div class="w1000">
         <?php
-        $arrBread[0]["Name"] = $model->Name;
+        $idCategoryFinal = array_pop($arridloai);
         $criteria = new CDbCriteria();
         $criteria->with = "loaisanpham_lang";
-        $criteria->condition = "idNgonNgu = $this->lang and Active = 1";
+        $criteria->condition = "idNgonNgu = $this->lang and Active = 1 and t.id = ".$idCategoryFinal;
         $criteria->order = "t.id desc";
-        $criteria->addInCondition("idLoai",$this->arridloai);
-        $arrloai = Loaisanpham::model()->findAll($criteria);
+        #$criteria->addInCondition("idLoai",$this->arridloai);
+        $categoryFinish = Loaisanpham::model()->find($criteria);
         $j = 0;
-        for ($i= (count($arrloai)-1); $i >= 0; $i--) {
-            $j++;
-            $arrBread[$j]["Name"] = $arrloai[$i]->loaisanpham_lang->Name;
-            $routerCateNews = Router::model()->find("idObject = " . $arrloai[$i]->loaisanpham_lang->id . " AND type = " . Router::TYPE_NEWS_PRODUCT);
-            $arrBread[$j]["Href"] = $routerCateNews->alias;
-        }
-        $this->renderPartial("//layouts/breadcrumb",array('data'=>$arrBread));
-        $hinhanh = Hinhanh::getDataByCustomSetting('home_banner_trang_con');
         ?>
-            <div class="detail">
-                <div class="bannertop">
-                    <div id="polyad_ads_zone3" style="text-align: center">
-                        <a target="_blank" href="<?php echo $hinhanh->hinhanh->link ?>">
-                            <img src="<?php echo $hinhanh->hinhanh->url_image ?>">
-                        </a>
-                    </div>
-                </div>
-                <h1 class="title"><?php echo $model->Name ?>   </h1>
-                <section class="detailct">
-                    <div class="cmName">
-                        <div class="wrp-share-gg">
-                            <div class="g-plus" data-action="share" data-height="22"></div>
-                        </div>
-                    </div>
-                    <div class="wrp-share">
-                        <div class="fb-like" data-href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] ?>" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-                    </div>
-                    <div class="sapo">
-                        <?php echo html_entity_decode($model->MoTa) ?>
-                    </div>
-                    <?php echo html_entity_decode($model->Content) ?>
-                    <div class="wrp-share">
-                        <div class="fb-like" data-href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] ?>" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-                    </div>
-<!--                    <div class="Ta__btn-tuvan">-->
-<!--                        <a rel="nofollow" href="#Ta__js-tu-van" data-toggle="modal" class="regist btnkn2tv">Đăng kí tư vấn</a>-->
-<!--                    </div>-->
-                    <?php $this->renderPartial("rating",array('data'=>$model)); ?>
-                    <?php $this->renderPartial("//layouts/form-tu-van"); ?>
-
-                    <div class="wrp-comment w100">
-                        <?php $this->renderPartial("//layouts/comment"); ?>
-                    </div>
-
-                </section>
-                <section class="detailct">
-                    <article class="sv_other svo2">
-                        <h3 class="hd-large">CÁC TIN NỔI BẬT</h3>
-                        <ul>
-                            <?php
-                                $criteria = new CDbCriteria();
-                                $criteria->with = "sanpham_lang";
-                                $criteria->condition = "idNgonNgu = $this->lang and Active = 1";
-                                $criteria->order = "t.id desc";
-                                $criteria->limit = 5;
-                                $data = Sanpham::model()->findAll($criteria);
-                                if (!empty($data)) {
-                                    foreach ($data as $item) {
-                                        $router = Router::model()->find("idObject = ". $item->sanpham_lang->id ." AND type = ".Router::TYPE_PRODUCT);
-                                        ?>
-                                        <li>
-                                            <a href="<?php echo $router->alias ?>.html">
-                                                <img style="max-width:80px;"
-                                                     src="<?php echo $item->UrlImage  ?>"
-                                                     alt="<?php echo $item->sanpham_lang->Name ?>">
-                                            </a>
-                                            <a href="<?php echo $router->alias ?>.html"
-                                               title="<?php echo $item->sanpham_lang->Name ?>">
-                                                <?php echo $item->sanpham_lang->Name ?>
-                                            </a>
-                                        </li>
-                                        <?php
-                                    }
-                                }
-                            ?>
-                        </ul>
-                    </article>
-                </section>
-
-            </div>
-        </div>
-    <?php $this->renderPartial('sidebar'); ?>
-    </div>
-</main>
-
-<div class='ht-lq w100 site-foot'>
-    <div class='hd-container'>
-        <h3 class='title'>Những câu hỏi thường gặp khi nâng mũi</h3>
-        <div class='hd-row'>
-            <?php
-            $data = Loaitin::getDataByCustomSetting('list_lien_quan');
-            $routerCateNews = Router::model()->find("idObject = ". $data->category->loaitin_lang->id ." AND type = ".Router::TYPE_NEWS_CATEGORY);
-            if(!empty($data->post)){
-                $i = 0;
-                foreach ($data->post as $item){
-                    $j = $i + 1;
-                    ?>
-                    <?php
-                    if($i == 0 || $i == 5 || $i == 10){
-                        ?>
-                        <div class="hd-col m3 ">
-                        <figure>
-                        <a title="<?php echo $item->tintuc_lang->Name ?>"
-                           href="<?php echo $router->alias ?>.html">
-                            <img src="<?php echo $item->UrlImage ?>"
-                                 alt="<?php echo $item->tintuc_lang->Name ?>"
-                                 title="<?php echo $item->tintuc_lang->Name ?>">
-                        </a>
-                        <figcaption>
-                        <ul>
-                        <?php $i++; continue; } ?>
-                    <li>
-                        <a title="<?php echo $item->tintuc_lang->Name ?>"
-                           href="<?php echo $router->alias ?>.html">
-                            <?php echo $item->tintuc_lang->Name ?>
-                        </a>
-                    </li>
-                    <?php if($j % 5 == 0 || $j == count($data->post) ) { ?>
-                        </ul>
-                        </figcaption>
-
-                        </figure>
-                        </div>
+        <?php $this->renderPartial("right", array("title" => $categoryFinish->loaisanpham_lang->Name,"id" => $lsp->id,'idParent' => $categoryFinish->id)); ?>
+        <div class="right">
+            <div class="left-pro">
+                <div class="img-pro-de w100">
+                    <ul class="slide-pro Carousel w100">
+                        <li class="item">
+                            <img class="w100" src="<?php echo $model->sanpham->UrlImage ?>"  title=""/>
+                        </li>
                         <?php
-                    }
-                    $i++;
-                }
-            }
+                        $criteria = new CDbCriteria();
+                        $criteria->condition = "Active = 1 and idSP = ".$model->sanpham->id;
+                        $criteria->limit = 2;
+                        $thumbnail = Thumbnails::model()->findAll($criteria);
+                        foreach ($thumbnail as $key => $value) {
+                            # code...
+                            ?>
+                            <li>
+                                <img src="<?php echo $value->UrlImage ?>"  title="" />
+                            </li>
+                        <?php } ?>
+                    </ul>
+                </div>
+                <div class="w100 product-contact">
+                    <label class="w100">
+                        <?php echo $model->Name ?>
+                    </label>
+                    <ul class="ttlh-pro w100">
+                        <li>
+                            <a href="">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span><?php echo $this->ttc->Email ?></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span><?php echo $this->ttc->Phone ?></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <span><?php echo $this->ttc->Address ?></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <span> Lượt xem: <?php echo $model->sanpham->CountView ?></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-pro">
+            <?php
+            #  $this->renderPartial("//layouts/breadcrumb",array('data'=>$arrBread));
             ?>
+            <div class="des-pro">
+                <strong>Mô tả:</strong>
+                <div class="w100 text">
+                    <?php echo $model->MoTa ?>
+                </div>
+            </div>
+                <div class="wrap-form-tuvan w100">
+                    <?php $this->renderPartial("//layouts/form-tu-van"); ?>
+                </div>
+        </div>
         </div>
     </div>
-</div>
+</section>

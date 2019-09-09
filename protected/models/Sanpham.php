@@ -32,7 +32,7 @@ class Sanpham extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('idLoai, SetHome, Active,Date', 'numerical', 'integerOnly'=>true),
+			array('idLoai, SetHome, Active,Date,CountView', 'numerical', 'integerOnly'=>true),
 			array('UrlImage, MaSP', 'length', 'max'=>255),
 			array('HangSanXuat', 'length', 'max'=>100),
 			array('Description, Keywords', 'safe'),

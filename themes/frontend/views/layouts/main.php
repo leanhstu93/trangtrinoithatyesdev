@@ -33,7 +33,7 @@
 ?>
   <div class="w1350">
       <?php $this->renderPartial("//layouts/header"); ?>
-    <?php // echo $content ?>
+    <?php  echo $content ?>
       <?php  $this->renderPartial("//layouts/footer"); ?>
     <?php # $this->renderPartial("//layouts/nav-right-fix"); ?>
     <?php // $this->renderPartial("//layouts/messengerFB"); ?>

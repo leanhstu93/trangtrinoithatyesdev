@@ -58,31 +58,6 @@ class SiteController extends Controller {
         Yii::app()->clientScript->registerMetaTag($this->ch->Description, 'keywords', null, [], '');
     }
 
-    public function actionRating()
-    {
-        $errors = [];
-        $model = new Rate();
-        $co = 'rating_'.$_GET['type'].'_'.$_GET['object_id'].'_'.session_id();
-        if (isset($_GET['point'])){
-            $ipAddress = $_SERVER['REMOTE_ADDR'];
-            $model->point = $_GET['point'];
-            $model->type = $_GET['type'];
-            $model->id_object = $_GET['object_id'];
-            $model->ip  = $ipAddress;
-            if(!isset($_SESSION[$co])) {
-                if ($model->save()) {
-                    $_SESSION[$co] = 1;
-                }
-            }
-            $rateAll = Rate::getRating($model->id_object,$model->type);
-            $arv['count'] = $rateAll->count;
-            $arv['value'] =round($rateAll->sum_point / $rateAll->count,1);
-            print_r(json_encode($arv));
-            exit;
-        }
-
-    }
-
     public function actionSiteMap()
     {
         header("Content-type: text/xml");
@@ -108,11 +83,13 @@ class SiteController extends Controller {
         $criteria = new CDbCriteria();
         $criteria->condition = "alias = '$alias'";
         $model = Router::model()->find($criteria);
-
         if(!empty($model)) {
             switch ($model->type){
                 case Router::TYPE_PRODUCT:
                     $this->actionSanpham($model->idObject);
+                    break;
+                case Router::TYPE_PRODUCT_CATEGORY:
+                    $this->actionLoaisp($model->idObject);
                     break;
                 case Router::TYPE_NEWS :
                     $this->actionChitiet($model->idObject);
@@ -705,6 +682,13 @@ class SiteController extends Controller {
         $criteria->with = "sanpham";
         $criteria->condition = "t.id = $id" ;
         $sp = SanphamLang::model()->find($criteria);
+        if(@$_SESSION["idSP_DaXem".$sp->id]!=$sp->id)
+        {
+
+            $_SESSION["idSP_DaXem".$sp->id]=$sp->id;
+            $sp->CountView =  $sp->CountView + 1;
+            $sp->save();
+        }
 
        // lay danh muc
         $criteria = new CDbCriteria();
@@ -713,11 +697,16 @@ class SiteController extends Controller {
         $lsp = Loaisanpham::model()->find($criteria);
         $idsp = $sp->idSP;
         $this->pageTitle = $sp->Name;
+        // loai cha
+        $this->arridloai = array();
+
+        $this->getloaicha($lsp->Parent,"Loaisanpham");
+
         Yii::app()->clientScript->registerMetaTag(strip_tags($sp->Name), '', null, array('property' => 'og:title'), 'meta_og_title');
         Yii::app()->clientScript->registerMetaTag("http://".$_SERVER["HTTP_HOST"].$sp->sanpham->UrlImage, '', null, array('property' => 'og:image'), 'meta_og_image');
         Yii::app()->clientScript->registerMetaTag($_SERVER["REQUEST_URI"], '', null, array('property' => 'og:url'), 'meta_og_site_name');
         Yii::app()->clientScript->registerMetaTag(strip_tags($sp->MoTa), '', null, array('property' => 'og:description'), 'meta_og_description');
-        $this->render("sanpham",array("model"=>$sp,"lsp"=>$lsp));
+        $this->render("sanpham",array("model"=>$sp,"lsp"=>$lsp,'arridloai' => $this->arridloai));
 
     }
     public function actionLoaitin($id)
@@ -755,25 +744,22 @@ class SiteController extends Controller {
         else
             $this->render("404");
     }
-     public function actionLoaisp($alias = null)
+     public function actionLoaisp($id)
     {
-        if($alias != null)
+        if($id != null)
         {
             $criteria = new CDbCriteria();
             $criteria->with ="loaisanpham_lang";
-            $criteria->condition = "Alias = '$alias' ";
+            $criteria->condition = "t.id = ".$id;
             $lsp = Loaisanpham::model()->find($criteria);
             if($lsp == false) {$this->render("../system/error404");return false;}
             $this->pageTitle = $lsp->loaisanpham_lang->Name;
             $this->arridloai = array();
             $this->getloaicon($lsp->id);
             $criteria = new CDbCriteria();
-          //$criteria->with ="loaisanpham_lang";
              $criteria->with ="sanpham_lang";
-               $criteria->condition = "idNgonNgu = $this->lang and Active = 1 ";
+           $criteria->condition = "idNgonNgu = $this->lang and Active = 1 ";
             $criteria->addInCondition("idLoai",$this->arridloai);
-            // $lsp = Loaisanpham::model()->findAll($criteria);
-            // print_r($this->arridloai);die();
                $count = Sanpham::model()->count($criteria);
              $pages = new CPagination($count);
             $pages->pageSize = 12;

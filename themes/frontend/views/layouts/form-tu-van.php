@@ -17,11 +17,7 @@ $form=$this->beginWidget('CActiveForm', array(
 )); ?>
 <div class="wrp-form-tu-van">
     <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <div class="pop-logo">
-            <img src="<?php echo $this->ttc->Logo ?>" alt="<?php echo $this->ttc->Company ?>">
-        </div>
-        <h3>ĐĂNG KÍ TƯ VẤN MIỄN PHÍ</h3>
+        <h3>ĐẶT HÀNG </h3>
     </div>
     <div class="modal-body">
         <div class="row-fluid">

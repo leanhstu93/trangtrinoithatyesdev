@@ -98,5 +98,5 @@
 	});	
 </script>
 <style type="text/css">
-	.fix-scroll{position: fixed; top: 0px; z-index: 9}
+	.fix-scroll{position: fixed; top: 0px; z-index: 9;    margin: auto;left: 0;right: 0}
 </style>

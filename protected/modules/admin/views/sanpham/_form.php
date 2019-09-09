@@ -12,7 +12,7 @@
     ),
 )); ?>
  <div class="form-group" style="margin-bottom:0px">
-        <label class="col-sm-2 control-label form-label" for="input001">Tên dịch vụ:</label>
+        <label class="col-sm-2 control-label form-label" for="input001">Tên sản phẩm:</label>
         <div class="col-sm-6">
             <?php echo $form->textField($spl,'Name',array('size'=>60,'maxlength'=>100,'class'=>'form-control Ta__js-title','required'=>'required')); ?>
             <span class="help-block" id="helpBlock"><?php echo $form->error($spl,'Name',array("text"=>"aaa")); ?></span> </div>
@@ -43,7 +43,7 @@
     </div>
 </div>
 <div class="form-group" style="margin-bottom:0px">
-    <label class="col-sm-2 control-label form-label" for="input001">Loại dịch vụ:</label>
+    <label class="col-sm-2 control-label form-label" for="input001">Loại sản phẩm:</label>
     <div class="col-sm-6"> <?php
         $criteria=new CDbCriteria();
         $criteria->with=array("loaisanpham_lang");
@@ -157,7 +157,7 @@ function openKCFinder(textarea) {
     </div>
 <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
-        <?php echo CHtml::submitButton($model->isNewRecord ? 'Thêm dịch vụ' : 'Lưu dịch vụ'); ?>
+        <?php echo CHtml::submitButton($model->isNewRecord ? 'Thêm sản phẩm' : 'Lưu sản phẩm'); ?>
     </div>
 </div>
 

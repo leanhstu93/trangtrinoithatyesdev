@@ -30,9 +30,10 @@ class LoaitinLang extends CActiveRecord
 		return array(
 			array('idLoaiTin, idNgonNgu', 'numerical', 'integerOnly'=>true),
 			array('Name, Alias', 'length', 'max'=>255),
+            array('desc', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, idLoaiTin, idNgonNgu, Name, Alias', 'safe', 'on'=>'search'),
+			array('id, idLoaiTin, idNgonNgu, Name, Alias, desc', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -59,6 +60,7 @@ class LoaitinLang extends CActiveRecord
 			'idNgonNgu' => 'Id Ngon Ngu',
 			'Name' => 'Tên loại',
 			'Alias' => 'Alias',
+            'desc' => 'Mô tả'
 		);
 	}
 
@@ -85,6 +87,7 @@ class LoaitinLang extends CActiveRecord
 		$criteria->compare('idNgonNgu',$this->idNgonNgu);
 		$criteria->compare('Name',$this->Name,true);
 		$criteria->compare('Alias',$this->Alias,true);
+        $criteria->compare('desc',$this->desc,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

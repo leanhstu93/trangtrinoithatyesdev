@@ -30,8 +30,16 @@
                 </div>
             </div>
             <div class="col3">
-
+                <?php $map = Hinhanh::getDataByCustomSetting('map_footer');?>
+                <h3> <?php echo $map->hinhanh->name ?> </h3>
+                <div class="w100">
+                    <img src="<?php echo $map->hinhanh->url_image ?>" class="w100" />
+                </div>
             </div>
         </div>
     </div>
 </footer>
+
+<section class="w100 block-end-footer">
+    2019 Copyright - trangtrinoithatyes.com - website design by Hdesign.com.vn
+</section>
