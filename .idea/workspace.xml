@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc4aad6b-bda6-44a7-a4b1-9c68447e6735" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/public_html.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon iphone-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/icon 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/icon 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/icon 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/icon fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/views/site/home-service.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protected/views/site/right.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckeditor/samples/old/assets/sample.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ckeditor/samples/old/assets/sample.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ckeditor4/samples/old/assets/sample.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/ckeditor4/samples/old/assets/sample.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/menu/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/components/Common.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/components/Common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/config/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/config/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/config/settingTemplate.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/config/settingTemplate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/models/LoaitinLang.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/models/LoaitinLang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/models/Sanpham.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/models/Sanpham.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/models/SanphamLang.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/models/SanphamLang.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/HinhanhController.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/HinhanhController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/loaitin/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/loaitin/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/sanpham/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/sanpham/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/sanpham/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/sanpham/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/sanpham/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/sanpham/create.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/sanpham/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/sanpham/update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/thongtinchung/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/thongtinchung/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/modules/admin/views/tintuc/_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/modules/admin/views/tintuc/_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/protected/runtime/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/runtime/application.log.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/bg-middle.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/bg-middle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/home-ct2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/home-page2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/home-page3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/loaisp.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/loaisp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/product-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/product-home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/sanpham.php" beforeDir="false" afterPath="$PROJECT_DIR$/protected/views/site/sanpham.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protected/views/site/sanphamcopy.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/admin/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/admin/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/breadcrumb.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/breadcrumb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/form-tu-van.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/form-tu-van.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/menumobile.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/menumobile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/right.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/frontend/views/layouts/slide.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/frontend/views/layouts/slide.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/01-thu ngon canh mui.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/02-sua mui hong sau nang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/03-sua mui go mui lech an toan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/1(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/1(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/1(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/1(4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/1(5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/11-2749.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/4(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/CHáº¤T LIá»†U Sá»¤N ÄÆ¯á»¢C Sá»¬ Dá»¤NG TRONG NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/KHáº®C PHá»¤C MÅ¨I TO, BÃˆ Vá»šI GIáº¢I PHÃP THU Gá»ŒN CÃNH MÅ¨I.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/MÅ¨I Äáº¸P VÄ¨NH VIá»„N Vá»šI PHÆ¯Æ NG PHÃP NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D Tá»° THÃ‚N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/NHá»®NG TRÆ¯á»œNG Há»¢P NÃ€O CÃ“ THá»‚ THá»°C HIá»†N NÃ‚NG MÅ¨I Bá»ŒC Sá»¤N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D NANOFORM la gi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/ao-nguc-ho-lung-da-sendo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/bac-si-sua-mui-dep-nhat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/coverfb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/mac-ao-nang-nguc-co-tot-khong-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/nang mui sieu am.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/nang-mui-got-cam-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/nang-mui-sline-bang-sun-tu-than1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/nang-mui-tai-Sai-Gon-HALO.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Files/post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/00000-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/1(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/1(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/1(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/1500x503 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/1500x503 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/1500x503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/2(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/2(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/2(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/2(4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/2(5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/2(6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/2(7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/2(8).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/20181214_124818_005442_58408-food-11_max-800x800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/3(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/3(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/3(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/3(4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/3(5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/3(6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/3(7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/3(8).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/4(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/4(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/4(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/4(4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/4(5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/4(6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/4(7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/5(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/5(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/5(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/559X309_VIDEO.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/728x90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/Báº N CÃ“ BIáº¾T Vá»€ PHÆ¯Æ NG PHÃP NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D Tá»° THÃ‚N CHÆ¯A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/CÃC CÃ‚U Há»ŽI THÆ¯á»œNG Gáº¶P KHI THU Gá»ŒN CÃNH MÅ¨I.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/CÃC TRÆ¯á»œNG Há»¢P CÃ“ THá»‚ THá»°C HIá»†N NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D NANOFORM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/Dao-Hong-Ngan-sau-tham-my-mui-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/HIá»‚U ÄÃšNG Vá»€ PHÆ¯Æ NG PHÃP NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/Hieu-ve-nang-nguc-de-lua-chon-bac-si-nang-nguc-an-toan-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/KHÃ”NG LO MÅ¨I BÃ“NG Äá»Ž, Lá»˜ SÃ“NG Vá»šI GIáº¢I PHÃP NÃ‚NG MÅ¨I Bá»ŒC Sá»¤N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/Ká»¸ THUáº¬T NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D Tá»° THÃ‚N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/MÅ¨I Äáº¸P VÄ¨NH VIá»„N Vá»šI PHÆ¯Æ NG PHÃP NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D Tá»° THÃ‚N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/MÅ¨I Äáº¸P áº¤N TÆ¯á»¢NG Vá»šI PHÆ¯Æ NG PHÃP NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/NANG-MUI-5-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/NHá»®NG LÆ¯U Ã SAU KHI NÃ‚NG MÅ¨I Bá»ŒC Sá»¤N Äá»‚ CÃ“ Má»˜T DÃNG MÅ¨I Äáº¸P.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/NHá»®NG TRÆ¯á»œNG Há»¢P CÃ“ THá»‚ THá»°C HIá»†N NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/NHá»®NG TRÆ¯á»œNG Há»¢P NÃŠN ÃP Dá»¤NG PHÆ¯Æ NG PHÃP NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D Tá»° THÃ‚N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/Nang-mui-Han-Quoc88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D NANOFORM la gi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/Phau-thuat-nang-mui-bao-lau-het-sung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/Phau-thuat-nang-mui-giu-duoc-bao-lau.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/THáº¾ NÃ€O NÃ‚NG MÅ¨I Bá»ŒC Sá»¤N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/Thoi-gian-phau-thuat-nang-mui.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/TÃŒM HIá»‚U Vá»€ CHáº¤T LIá»†U Sá»¤N TRONG PHÆ¯Æ NG PHÃP NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D NANOFORM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/TÃŒM HIá»‚U Vá»€ PHÆ¯Æ NG PHÃP THU Gá»ŒN CÃNH MÅ¨I.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/Táº I SAO Báº N NÃŠN Äáº¾N SAIGONHALO Äá»‚ THá»°C HIá»†N NÃ‚NG MÅ¨I Bá»ŒC Sá»¤N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/Untitled-1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/Untitled-3-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/anh-sau-thuy-trang-boc-sun-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/ao-nguc-ho-lung-da-sendo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/bANNER QC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/bac-si-chuyen-nang-mui.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/bac-si-sua-mui-dep-nhat-sai-gon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/bac-si-sua-mui-dep-nhat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/bs1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/bs2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/bs3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/cac-bac-si-nang-mui-dep(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/cac-bac-si-nang-mui-dep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/cam-tien-mui-lech-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/cham-soc-sau-khi-nang-mui-vinmec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/cham-soc-vong-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/chi-phi-nang-mui-boc-sun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/chi-phi-nang-mui-han-quoc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/chi-phi-nang-mui-khong-can-phau-thuat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/chi-phi-nang-mui-khong-phau-thuat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/chi-phi-nang-mui-sun-tu-than.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/chi-phi-phau-thuat-tham-my.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/chuyen-khoa-nang-mui-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/dang-ky-tu-van.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/dia-chi-phau-thuat-nang-mui-uy-tin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/doi tuong sieu am.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/gia-nang-mui-boc-sun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/gia-nang-mui-khong-phau-thuat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/gia-phau-thuat-nang-mui.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/hai-san.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/hd-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/hdd-18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/hon-40000-ca-nang-mui-thanh-cong-tai-kangnam-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/image001-8789-1539338968-300x300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/kang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/logo saigonhalo rong nen-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/mui-noi-bat-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nan-lai-song-mui-bi-lech-min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nan-lai-song-mui-bi-lech3-min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nan-lai-song-mui-bi-lech4-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nan-lai-song-mui-bi-lech5-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-ban-cau-truc-4d-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-ban-cau-truc-4d-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-ban-cau-truc-4d-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-ban-cau-truc-4d-6 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-ban-cau-truc-4d-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-ban-cau-truc-4d-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-ban-cau-truc-4d-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-ban-cau-truc-4d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-bang-boc-sun-tu-than-co-tot-khong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-bang-boc-sun-tu-than-nhu-the-nao.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-bang-chi-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-bang-chi-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-bang-chi-co-may-loai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-boc-sun-tu-than-la-gi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-cau-truc-4d-gia-bao-nhieu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-cau-truc-4d-la-gi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-cau-truc-4d-sieu-am-la-gi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-cau-truc4D-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-kangnams-perfect-s-line611.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-perfect-s-line611.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-sline-bang-sun-tu-than.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-sline.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-tai-kangnam-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nang-mui-tai-kangnam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nhung dac diem(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nhung dac diem.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/nÃ¢ng-ngá»±c-ná»™i-soi-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/page2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/page4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/phau-thuat-nang-mui-bang-chi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/phau-thuat-nang-mui-bang-sun-tai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/phau-thuat-nang-mui-bi-lech.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/phau-thuat-nang-mui-gia-bao-nhieu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/phau-thuat-nang-mui-o-dau-tot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/phuong-phap-nang-mui-bang-chi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/quang-loc-9-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/sau-nang-mui-nen-kieng-an-hoa-qua-gi2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/slogan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/_thumbs/Images/sua-mui-o-dau-dep-va-an-toan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/01-thu ngon canh mui.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/02-sua mui hong sau nang.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/03-sua mui go mui lech an toan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/1(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/1(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/1(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/1(4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/1(5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/11-2749.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/4(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/CHáº¤T LIá»†U Sá»¤N ÄÆ¯á»¢C Sá»¬ Dá»¤NG TRONG NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/KHáº®C PHá»¤C MÅ¨I TO, BÃˆ Vá»šI GIáº¢I PHÃP THU Gá»ŒN CÃNH MÅ¨I.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/MÅ¨I Äáº¸P VÄ¨NH VIá»„N Vá»šI PHÆ¯Æ NG PHÃP NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D Tá»° THÃ‚N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/NHá»®NG TRÆ¯á»œNG Há»¢P NÃ€O CÃ“ THá»‚ THá»°C HIá»†N NÃ‚NG MÅ¨I Bá»ŒC Sá»¤N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D NANOFORM la gi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/ao-nguc-ho-lung-da-sendo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/bac-si-sua-mui-dep-nhat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/coverfb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/mac-ao-nang-nguc-co-tot-khong-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/nang mui sieu am.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/nang-mui-got-cam-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/nang-mui-sline-bang-sun-tu-than1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/nang-mui-tai-Sai-Gon-HALO.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/files/post.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/00000-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/1(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/1(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/1(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/1500x503 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/1500x503 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/1500x503.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/2(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/2(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/2(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/2(4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/2(5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/2(6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/2(7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/2(8).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/20181214_124818_005442_58408-food-11_max-800x800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/3(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/3(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/3(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/3(4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/3(5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/3(6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/3(7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/3(8).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/4(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/4(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/4(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/4(4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/4(5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/4(6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/4(7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/5(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/5(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/5(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/559X309_VIDEO.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/728x90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/Báº N CÃ“ BIáº¾T Vá»€ PHÆ¯Æ NG PHÃP NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D Tá»° THÃ‚N CHÆ¯A.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/CÃC CÃ‚U Há»ŽI THÆ¯á»œNG Gáº¶P KHI THU Gá»ŒN CÃNH MÅ¨I.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/CÃC TRÆ¯á»œNG Há»¢P CÃ“ THá»‚ THá»°C HIá»†N NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D NANOFORM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/Dao-Hong-Ngan-sau-tham-my-mui-1-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/HIá»‚U ÄÃšNG Vá»€ PHÆ¯Æ NG PHÃP NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/Hieu-ve-nang-nguc-de-lua-chon-bac-si-nang-nguc-an-toan-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/KHÃ”NG LO MÅ¨I BÃ“NG Äá»Ž, Lá»˜ SÃ“NG Vá»šI GIáº¢I PHÃP NÃ‚NG MÅ¨I Bá»ŒC Sá»¤N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/Ká»¸ THUáº¬T NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D Tá»° THÃ‚N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/MÅ¨I Äáº¸P VÄ¨NH VIá»„N Vá»šI PHÆ¯Æ NG PHÃP NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D Tá»° THÃ‚N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/MÅ¨I Äáº¸P áº¤N TÆ¯á»¢NG Vá»šI PHÆ¯Æ NG PHÃP NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/NANG-MUI-5-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/NHá»®NG LÆ¯U Ã SAU KHI NÃ‚NG MÅ¨I Bá»ŒC Sá»¤N Äá»‚ CÃ“ Má»˜T DÃNG MÅ¨I Äáº¸P.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/NHá»®NG TRÆ¯á»œNG Há»¢P CÃ“ THá»‚ THá»°C HIá»†N NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/NHá»®NG TRÆ¯á»œNG Há»¢P NÃŠN ÃP Dá»¤NG PHÆ¯Æ NG PHÃP NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D Tá»° THÃ‚N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/Nang-mui-Han-Quoc88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D NANOFORM la gi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/Phau-thuat-nang-mui-bao-lau-het-sung.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/Phau-thuat-nang-mui-giu-duoc-bao-lau.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/Sua-mui-sun-tu-than-gia-bao-nhieu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/THáº¾ NÃ€O NÃ‚NG MÅ¨I Bá»ŒC Sá»¤N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/Thoi-gian-phau-thuat-nang-mui.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/TÃŒM HIá»‚U Vá»€ CHáº¤T LIá»†U Sá»¤N TRONG PHÆ¯Æ NG PHÃP NÃ‚NG MÅ¨I Cáº¤U TRÃšC 4D NANOFORM.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/TÃŒM HIá»‚U Vá»€ PHÆ¯Æ NG PHÃP THU Gá»ŒN CÃNH MÅ¨I.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/Táº I SAO Báº N NÃŠN Äáº¾N SAIGONHALO Äá»‚ THá»°C HIá»†N NÃ‚NG MÅ¨I Bá»ŒC Sá»¤N.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/Untitled-1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/Untitled-3-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/anh-sau-thuy-trang-boc-sun-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/ao-nguc-ho-lung-da-sendo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/bANNER QC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/bac-si-chuyen-nang-mui.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/bac-si-sua-mui-dep-nhat-sai-gon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/bac-si-sua-mui-dep-nhat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/bs1-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/bs2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/bs3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/cac-bac-si-nang-mui-dep(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/cac-bac-si-nang-mui-dep.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/cam-tien-mui-lech-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/cham-soc-sau-khi-nang-mui-vinmec.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/cham-soc-vong-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/chi-phi-nang-mui-boc-sun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/chi-phi-nang-mui-han-quoc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/chi-phi-nang-mui-khong-can-phau-thuat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/chi-phi-nang-mui-khong-phau-thuat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/chi-phi-nang-mui-sun-tu-than.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/chi-phi-phau-thuat-tham-my.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/chuyen-khoa-nang-mui-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/dang-ky-tu-van.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/dia-chi-phau-thuat-nang-mui-uy-tin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/doi tuong sieu am.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/gia-nang-mui-boc-sun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/gia-nang-mui-khong-phau-thuat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/gia-phau-thuat-nang-mui.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/hai-san.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/hd-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/hdd-18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/hon-40000-ca-nang-mui-thanh-cong-tai-kangnam-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/image001-8789-1539338968-300x300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/kang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/logo saigonhalo rong nen-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/mui-noi-bat-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nan-lai-song-mui-bi-lech-min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nan-lai-song-mui-bi-lech3-min.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nan-lai-song-mui-bi-lech4-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nan-lai-song-mui-bi-lech5-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-ban-cau-truc-4d-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-ban-cau-truc-4d-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-ban-cau-truc-4d-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-ban-cau-truc-4d-6 (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-ban-cau-truc-4d-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-ban-cau-truc-4d-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-ban-cau-truc-4d-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-ban-cau-truc-4d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-bang-boc-sun-tu-than-co-tot-khong.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-bang-boc-sun-tu-than-nhu-the-nao.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-bang-chi-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-bang-chi-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-bang-chi-co-may-loai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-boc-sun-tu-than-la-gi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-cau-truc-4d-gia-bao-nhieu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-cau-truc-4d-la-gi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-cau-truc-4d-sieu-am-la-gi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-cau-truc4D-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-kangnams-perfect-s-line611.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-perfect-s-line611.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-sline-bang-sun-tu-than.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-sline.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-tai-kangnam-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nang-mui-tai-kangnam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nhung dac diem(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nhung dac diem.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/nÃ¢ng-ngá»±c-ná»™i-soi-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/page2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/page4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/phau-thuat-nang-mui-bang-chi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/phau-thuat-nang-mui-bang-sun-tai.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/phau-thuat-nang-mui-bi-lech.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/phau-thuat-nang-mui-gia-bao-nhieu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/phau-thuat-nang-mui-o-dau-tot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/phau-thuat-nang-mui-sun-tu-than.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/phau-thuat-tham-my-nang-mui-s-line.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/phuong-phap-nang-mui-bang-chi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/quang-loc-9-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/quy-trinh-nang-mui-s-line.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/sau-nang-mui-nen-kieng-an-hoa-qua-gi2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/slogan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/images/sua-mui-o-dau-dep-va-an-toan.jpg" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/sanpham.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="82" column="10" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/models/Sanpham.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="690" column="9" selection-start-line="690" selection-start-column="9" selection-end-line="690" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/SiteController 2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="317" column="9" selection-start-line="311" selection-start-column="7" selection-end-line="317" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/sanpham 2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="79" column="25" selection-start-line="54" selection-start-column="20" selection-end-line="79" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/loaisp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-87">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="432" column="17" lean-forward="true" selection-start-line="432" selection-start-column="17" selection-end-line="432" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/form-tu-van.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/right.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>menu</find>
+      <find>#cssmenu &gt; ul &gt; li#cssmenu &gt; ul &gt; li</find>
+      <find>#cssmenu li.txt-hotline</find>
+      <find>#cssmenu &gt; ul &gt; li</find>
+      <find>#cssmenu &gt; ul</find>
+      <find>section.menu</find>
+      <find>header .right</find>
+      <find>header .right li</find>
+      <find>Pinterest</find>
+      <find>header .left</find>
+      <find>header .logo</find>
+      <find>header .block-bottom .block-bottom-left</find>
+      <find>RewriteUrl</find>
+      <find>line w100</find>
+      <find>getDataByCustomSetting</find>
+      <find>menuright</find>
+      <find>actionRewriteUrl</find>
+      <find>.wrap-loaitin .menuright label</find>
+      <find>('sidebar'); ?&gt;</find>
+      <find>actionSanpham</find>
+      <find>arridloai</find>
+      <find>sanpham(</find>
+      <find>.wrap-prodetail .right .right-pro label</find>
+      <find>loaiti</find>
+      <find>getloaichaLoaiTin</find>
+      <find>.wrap-prodetail .right</find>
+      <find>.wrap-loaitin .menuright</find>
+      <find>TYPE_NEWS_PRODUCT</find>
+      <find>CountView</find>
+      <find>.wrap-prodetail .right .left-pro label</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>section.dieukhac-tc .ct .col4</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/protected/models/Custom.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/custom/block-setting-image.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/custom/block-setting-news-category.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/custom/block-setting-single-page.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/main.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/product-home.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/slide.php" />
+        <option value="$PROJECT_DIR$/themes/admin/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/sanpham/create.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/sanpham/admin.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/sanpham/update.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/sanpham/_form.php" />
+        <option value="$PROJECT_DIR$/protected/models/SanphamLang.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/HinhanhController.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/admin.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/bg-middle.php" />
+        <option value="$PROJECT_DIR$/protected/models/LoaitinLang.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/tintuc/_form.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/loaitin/_form.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/home-service.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/menumobile.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/footer.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/menu.php" />
+        <option value="$PROJECT_DIR$/css/menu/styles.css" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/views/thongtinchung/_form.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/header.php" />
+        <option value="$PROJECT_DIR$/protected/components/Common.php" />
+        <option value="$PROJECT_DIR$/protected/config/main.php" />
+        <option value="$PROJECT_DIR$/protected/config/settingTemplate.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/right.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/breadcrumb.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/right.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/loaisp.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/SiteController 2.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/sanpham.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/sanpham 2.php" />
+        <option value="$PROJECT_DIR$/protected/models/Sanpham.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/sanpham.php" />
+        <option value="$PROJECT_DIR$/themes/frontend/views/layouts/form-tu-van.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2" />
+    <option name="y" value="1" />
+    <option name="width" value="1022" />
+    <option name="height" value="726" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="protected" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="protected" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="protected" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="protected" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="public_html" type="b2602c69:ProjectViewProjectNode" />
+              <item name="public_html" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\public_html\protected\views\site" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\public_html\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc4aad6b-bda6-44a7-a4b1-9c68447e6735" name="Default Changelist" comment="" />
+      <created>1567693945960</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567693945960</updated>
+      <workItem from="1567693947016" duration="5708000" />
+      <workItem from="1567777493066" duration="1067000" />
+      <workItem from="1567783229077" duration="287000" />
+      <workItem from="1567783828665" duration="4460000" />
+      <workItem from="1567873084057" duration="8218000" />
+      <workItem from="1567919039448" duration="600000" />
+      <workItem from="1567927668526" duration="23289000" />
+    </task>
+    <task id="LOCAL-00001" summary="lan dau">
+      <created>1567694291085</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567694291085</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="43629000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26285347" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32974428" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26285347" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lan dau" />
+    <option name="LAST_COMMIT_MESSAGE" value="lan dau" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/slide.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/index.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/spnb.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/slide.php" />
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/slide.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/product-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="14" selection-start-line="15" selection-start-column="7" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/sanpham/_form.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/sanpham/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/HinhanhController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/loaihinhanh/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="62" column="83" selection-start-line="62" selection-start-column="83" selection-end-line="62" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/hinhanh/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="72" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/sidebar/comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="121" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/admin/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="83" column="13" lean-forward="true" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Loaitin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/SinglePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="38" column="50" lean-forward="true" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/LoaitinController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-986">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/LoaitinLang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/tintuc/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/loaitin/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/bg-middle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/menumobile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="42" column="37" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="37" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#footer#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/thongtinchung/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="109" column="6" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/menu/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="161" column="20" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="48" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#0;n#header#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#header#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="105" column="36" selection-start-line="105" selection-start-column="20" selection-end-line="105" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="110" column="45" selection-start-line="110" selection-start-column="45" selection-end-line="110" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/settingTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="81" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/Common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="413" column="138" selection-start-line="413" selection-start-column="12" selection-end-line="413" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/loaisp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/breadcrumb.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="51" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/breadcrumb.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/sanpham.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/cat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/home-service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/loaisp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/right.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/sanpham 2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="79" column="25" selection-start-line="54" selection-start-column="20" selection-end-line="79" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Sanpham.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/SiteController 2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="317" column="9" selection-start-line="311" selection-start-column="7" selection-end-line="317" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="690" column="9" selection-start-line="690" selection-start-column="9" selection-end-line="690" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/sanpham.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="82" column="10" lean-forward="true" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/frontend/views/layouts/form-tu-van.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="432" column="17" lean-forward="true" selection-start-line="432" selection-start-column="17" selection-end-line="432" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

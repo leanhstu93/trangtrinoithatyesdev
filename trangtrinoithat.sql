@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th9 06, 2019 lúc 04:37 PM
--- Phiên bản máy phục vụ: 10.3.16-MariaDB
--- Phiên bản PHP: 7.2.20
+-- Thời gian đã tạo: Th9 09, 2019 lúc 02:42 AM
+-- Phiên bản máy phục vụ: 10.1.38-MariaDB
+-- Phiên bản PHP: 5.6.40
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -34,8 +34,8 @@ CREATE TABLE `baogia` (
   `Phone` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Email` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Date` int(11) DEFAULT NULL,
-  `Description` text CHARACTER SET utf8 DEFAULT NULL,
-  `Active` tinyint(1) NOT NULL DEFAULT 0
+  `Description` text CHARACTER SET utf8,
+  `Active` tinyint(1) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -63,9 +63,9 @@ CREATE TABLE `book` (
   `SDT` varchar(12) DEFAULT NULL,
   `Event` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Address` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `Description` text CHARACTER SET utf8 DEFAULT NULL,
+  `Description` text CHARACTER SET utf8,
   `Date` int(4) DEFAULT NULL,
-  `Active` tinyint(1) DEFAULT 0
+  `Active` tinyint(1) DEFAULT '0'
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
@@ -109,7 +109,7 @@ CREATE TABLE `camnhankhachhang` (
   `Content` text CHARACTER SET utf8 NOT NULL,
   `Seo_Description` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Seo_Keywords` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `Active` tinyint(1) NOT NULL DEFAULT 1
+  `Active` tinyint(1) NOT NULL DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -134,12 +134,12 @@ CREATE TABLE `cauhinh` (
   `googlemap` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Email` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Title` varchar(255) CHARACTER SET utf8 NOT NULL,
-  `Description` text CHARACTER SET utf8 DEFAULT NULL,
-  `Keyword` text CHARACTER SET utf8 DEFAULT NULL,
-  `head` text CHARACTER SET utf8 DEFAULT NULL,
+  `Description` text CHARACTER SET utf8,
+  `Keyword` text CHARACTER SET utf8,
+  `head` text CHARACTER SET utf8,
   `robots` varchar(10) CHARACTER SET utf8 DEFAULT NULL,
-  `body` text CHARACTER SET utf8 DEFAULT NULL,
-  `footer` text CHARACTER SET utf8 DEFAULT NULL,
+  `body` text CHARACTER SET utf8,
+  `footer` text CHARACTER SET utf8,
   `ImageCompany` text CHARACTER SET utf8 NOT NULL,
   `BaoTri` tinyint(1) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -190,7 +190,7 @@ INSERT INTO `counttruycap` (`id`, `Count`) VALUES
 
 CREATE TABLE `custom` (
   `id` int(11) NOT NULL,
-  `data` text CHARACTER SET utf8 DEFAULT NULL
+  `data` text CHARACTER SET utf8
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -198,7 +198,7 @@ CREATE TABLE `custom` (
 --
 
 INSERT INTO `custom` (`id`, `data`) VALUES
-(1, '{\"CUSTOM_IMAGE\":{\"slide\":{\"data\":\"1\"}},\"CUSTOM_SINGLE_PAGE\":{\"one_footer\":{\"data\":[\"13\"]}},\"CUSTOM_NEWS_CATEGORY\":{\"footer_col_2\":{\"data\":\"1\"}}}');
+(1, '{\"CUSTOM_IMAGE\":{\"slide\":{\"data\":\"1\"},\"map_footer\":{\"data\":\"14\"},\"bg_middle_home\":{\"data\":\"13\"},\"banner_category\":{\"data\":\"15\"}},\"CUSTOM_SINGLE_PAGE\":{\"one_footer\":{\"data\":[\"13\"]}},\"CUSTOM_NEWS_CATEGORY\":{\"footer_col_2\":{\"data\":\"1\"},\"midle_home\":{\"data\":\"1\"}}}');
 
 -- --------------------------------------------------------
 
@@ -229,10 +229,10 @@ INSERT INTO `footer` (`id`, `col1`, `col2`, `col3`) VALUES
 CREATE TABLE `gioithieu` (
   `id` int(4) NOT NULL,
   `UrlImage` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `SetMenu` tinyint(1) DEFAULT 0,
-  `SetFooter` tinyint(1) DEFAULT 0,
+  `SetMenu` tinyint(1) DEFAULT '0',
+  `SetFooter` tinyint(1) DEFAULT '0',
   `Type` tinyint(1) DEFAULT NULL COMMENT '2: giai phap 1: gioithieu',
-  `Active` tinyint(1) DEFAULT 1 COMMENT '1'
+  `Active` tinyint(1) DEFAULT '1' COMMENT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -254,8 +254,8 @@ CREATE TABLE `gioithieu_lang` (
   `idNgonNgu` tinyint(1) DEFAULT NULL,
   `Name` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Alias` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `Description` text CHARACTER SET utf8 DEFAULT NULL,
-  `Content` text CHARACTER SET utf8 DEFAULT NULL
+  `Description` text CHARACTER SET utf8,
+  `Content` text CHARACTER SET utf8
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -276,12 +276,12 @@ INSERT INTO `gioithieu_lang` (`id`, `idGioiThieu`, `idNgonNgu`, `Name`, `Alias`,
 
 CREATE TABLE `hinhanh` (
   `id` int(11) NOT NULL,
-  `id_category` int(4) NOT NULL DEFAULT 0,
+  `id_category` int(4) NOT NULL DEFAULT '0',
   `name` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `link` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `description` text CHARACTER SET utf8 DEFAULT NULL,
+  `description` text CHARACTER SET utf8,
   `url_image` varchar(255) CHARACTER SET utf8 NOT NULL,
-  `active` tinyint(1) DEFAULT 1
+  `active` tinyint(1) DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -291,32 +291,11 @@ CREATE TABLE `hinhanh` (
 INSERT INTO `hinhanh` (`id`, `id_category`, `name`, `link`, `description`, `url_image`, `active`) VALUES
 (1, 1, 'Slide 1', '', '', '/uploads/images/banner-top/23761b13b334566a0f25.jpg', 1),
 (3, 1, 'Slide 3', '', '', '/uploads/images/banner-top/3fe6c98061a784f9ddb6.jpg', 1),
-(4, 3, '', '', '', '/uploads/images/hd-bg.jpg', 1),
-(5, 4, 'THU GỌN CÁNH MŨI', '', 'Đặc trưng nổi bật của người Châu Á là cánh hẫu thuật thu gọn cánh mũi nội soi là công nghệ chỉnh sửa', '/uploads/files/03-sua%20mui%20go%20mui%20lech%20an%20toan.jpg', 1),
-(6, 4, 'SỬA MŨI HỎNG SAU NÂNG ', '', '', '/uploads/files/02-sua%20mui%20hong%20sau%20nang.jpg', 1),
-(7, 4, 'SỬA MŨI GỒ, MŨI LỆCH AN TOÀN', '', '', '/uploads/files/01-thu%20ngon%20canh%20mui.jpg', 1),
-(9, 5, 'bg 2', '', '', '/uploads/images/page2.jpg', 1),
-(10, 6, 'Hot girl kiều trang', '', '', '/uploads/images/kinhgnhiem/kieu-trang-sau-nang-mui-tham-my-2.jpg', 1),
-(11, 6, 'Yến Nhi (Quận 8)', '', '', '/uploads/images/benhnhan/295412107596942344202847289464178751262307n-8236.png', 1),
-(12, 6, 'Phương Anh (Quận 1)', '', '', '/uploads/images/benhnhan/capture-705.JPG', 1),
-(13, 6, 'Cẩm tiên (Văn phòng)', '', '', '/uploads/images/benhnhan/BEN%20NHAN%201.jpg', 1),
-(14, 6, 'Châu quỳnh (Quận 1)', '', '', '/uploads/images/benhnhan/BEN%20NHAN%202.jpg', 1),
-(15, 6, 'Hải Ngọc', '', '', '/uploads/images/benhnhan/213178796368643967032697148810815140038352n-378.png', 1),
-(16, 7, '', '', '', '/uploads/images/kienthuc/nang-mui-cau-truc-sun-suon-lan-dau-3.jpg', 1),
-(17, 7, '', '', '', '/uploads/files/004.jpg', 1),
-(18, 7, '', '', '', '/uploads/files/003.jpg', 1),
-(19, 7, '', '', '', '/uploads/files/002.jpg', 1),
-(20, 7, '', '', '', '/uploads/files/001.jpg', 1),
-(21, 9, '', '', '', '/uploads/images/page4.jpg', 1),
-(22, 10, 'Banner quản cáo', '', '', '/uploads/images/bANNER%20QC.jpg', 1),
-(23, 11, 'VIDEO SỬA MŨI CẤU TRÚC', 'https://www.youtube.com/watch?v=1re07YFkIk8', 'VIDEO SỬA MŨI CẤU TRÚC', '/uploads/files/nang-mui-tai-Sai-Gon-HALO.jpg', 1),
 (24, 1, 'Banner 3', '', '', '/uploads/images/banner-top/4c6434029c25797b2034.jpg', 1),
 (25, 1, 'Banner 4', '', '', '/uploads/images/banner-top/5c78821d2a3acf64962b.jpg', 1),
-(26, 12, '1', '', '', '/uploads/images/hinhanh/79bbe0df4107a459fd16.jpg', 1),
-(27, 12, '2', '', '', '/uploads/images/hinhanh/bc0f136ab2b257ec0ea3.jpg', 1),
-(28, 12, '3', '', '', '/uploads/images/hinhanh/d59698f5392ddc73853c.jpg', 1),
-(29, 12, '4', '', '', '/uploads/images/hinhanh/d8e3d686775e9200cb4f.jpg', 1),
-(30, 12, '5', '', '', '/uploads/images/hinhanh/ed4cf02f51f7b4a9ede6.jpg', 1);
+(31, 13, 'Gạch ốp tường cao cấp', '', 'Tất cả các công cụ sản xuất văn bản mẫu Lorem Ipsum đều làm theo cách lặp đi lặp lại  Tất cả các côn Tất cả các công cụ sản xuất văn bản mẫu Lorem Ipsum đều làm theo cách lặp đi lặp lại  Tất cả các côn', '/uploads/images/h1-background-img-2.jpg', 1),
+(32, 14, 'Bản đồ', '', '', '/uploads/files/Screenshot.png', 1),
+(33, 15, 'Banner trang con', '', '', '/uploads/images/banner-slide-1.jpg', 1);
 
 -- --------------------------------------------------------
 
@@ -328,8 +307,8 @@ CREATE TABLE `loaihinhanh` (
   `id` int(4) NOT NULL,
   `name` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `link` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `description` text CHARACTER SET utf8 DEFAULT NULL,
-  `active` int(11) DEFAULT 1
+  `description` text CHARACTER SET utf8,
+  `active` int(11) DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -337,18 +316,10 @@ CREATE TABLE `loaihinhanh` (
 --
 
 INSERT INTO `loaihinhanh` (`id`, `name`, `link`, `description`, `active`) VALUES
-(1, 'Slide1', NULL, NULL, 1),
-(2, 'daedad', NULL, NULL, 0),
-(3, 'Header', NULL, NULL, 1),
-(4, 'Các phương pháp nâng mũi HOT nhất 2019', '', '', 1),
-(5, 'Background phương pháp nâng mũi', NULL, NULL, 1),
-(6, 'Chia sẻ kinh nghiệm nâng mũi đẹp của khách hàng thực tế', NULL, NULL, 1),
-(7, 'Kiến thức nâng mũi đẹp', 'http://bacsisuamui.com:93/hinh-anh/', 'Nâng mũi Sài Gòn Halo đã mang đến những thay đổi gì?', 1),
-(8, 'Banner cuối bài viết', '', 'Banner cuối bài viết', 1),
-(9, 'Background tư vấn nâng mũi', '', '', 1),
-(10, 'Banner trang con', '', '', 1),
-(11, 'Banner video sidebar', '', '', 1),
-(12, 'Những lý do nên sửa mũi tại Sài Gòn Halo', '', '', 1);
+(1, 'Slide', '', '', 1),
+(13, 'Banner giữa trang chủ', '', '', 1),
+(14, 'Banner bản đồ footer', '', '', 1),
+(15, 'Banner trang con', '', '', 1);
 
 -- --------------------------------------------------------
 
@@ -361,7 +332,7 @@ CREATE TABLE `loaiquangcao` (
   `idLoaiHienThi` int(4) DEFAULT NULL,
   `Name` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Alias` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `Active` tinyint(1) DEFAULT 1
+  `Active` tinyint(1) DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -385,8 +356,8 @@ CREATE TABLE `loaisanpham` (
   `Parent` int(4) DEFAULT NULL,
   `SetHome` tinyint(1) DEFAULT NULL,
   `UrlImage` varchar(255) CHARACTER SET utf8 NOT NULL,
-  `Order` tinyint(1) DEFAULT 0,
-  `Active` tinyint(1) DEFAULT 1
+  `Order` tinyint(1) DEFAULT '0',
+  `Active` tinyint(1) DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -394,12 +365,12 @@ CREATE TABLE `loaisanpham` (
 --
 
 INSERT INTO `loaisanpham` (`id`, `Parent`, `SetHome`, `UrlImage`, `Order`, `Active`) VALUES
-(1, 19, 0, '', 0, 1),
+(1, 19, 1, '', 0, 1),
 (2, 1, 0, '', 0, 1),
 (3, 1, 0, '', 0, 1),
 (4, 1, 0, '', 0, 1),
 (5, 19, 0, '', 0, 1),
-(6, 19, 0, '', 0, 1),
+(6, 19, 1, '', 0, 1),
 (7, 19, 0, '', 0, 1),
 (8, 6, 0, '', 0, 1),
 (9, 6, 0, '', 0, 1),
@@ -427,7 +398,7 @@ CREATE TABLE `loaisanpham_lang` (
   `Name` varchar(255) CHARACTER SET utf8 NOT NULL,
   `Description` text CHARACTER SET utf8 NOT NULL,
   `Alias` varchar(255) CHARACTER SET utf8 NOT NULL,
-  `SetMenu` int(4) DEFAULT 1
+  `SetMenu` int(4) DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -464,11 +435,11 @@ INSERT INTO `loaisanpham_lang` (`id`, `idLoai`, `idNgonNgu`, `Name`, `Descriptio
 CREATE TABLE `loaitin` (
   `id` int(4) NOT NULL,
   `Parent` int(4) DEFAULT NULL,
-  `SetMenu` tinyint(1) DEFAULT 0,
-  `SetHome` tinyint(1) DEFAULT 0,
-  `SetQC` tinyint(1) DEFAULT 0,
-  `Active` tinyint(1) DEFAULT 1,
-  `Order` int(1) DEFAULT 0
+  `SetMenu` tinyint(1) DEFAULT '0',
+  `SetHome` tinyint(1) DEFAULT '0',
+  `SetQC` tinyint(1) DEFAULT '0',
+  `Active` tinyint(1) DEFAULT '1',
+  `Order` int(1) DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -490,6 +461,7 @@ CREATE TABLE `loaitin_lang` (
   `idLoaiTin` int(4) DEFAULT NULL,
   `idNgonNgu` tinyint(1) DEFAULT NULL,
   `Name` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
+  `desc` text CHARACTER SET utf8 COLLATE utf8_unicode_ci,
   `Alias` varchar(255) CHARACTER SET utf8 DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -497,11 +469,11 @@ CREATE TABLE `loaitin_lang` (
 -- Đang đổ dữ liệu cho bảng `loaitin_lang`
 --
 
-INSERT INTO `loaitin_lang` (`id`, `idLoaiTin`, `idNgonNgu`, `Name`, `Alias`) VALUES
-(1, 1, 1, 'Dịch vụ', 'dich-vu'),
-(2, 1, 2, '', ''),
-(3, 2, 1, 'Tin tức', 'tin-tuc'),
-(4, 2, 2, '', '');
+INSERT INTO `loaitin_lang` (`id`, `idLoaiTin`, `idNgonNgu`, `Name`, `desc`, `Alias`) VALUES
+(1, 1, 1, 'Dịch vụ', 'Công ty chúng tôi là đơn vị chuyên thi công và sản xuất các mặt hàng như: giường tủ, bàn ghế, quầy, kệ, vách ngăn, shop...', 'dich-vu'),
+(2, 1, 2, '', NULL, ''),
+(3, 2, 1, 'Tin tức', NULL, 'tin-tuc'),
+(4, 2, 2, '', NULL, '');
 
 -- --------------------------------------------------------
 
@@ -554,12 +526,12 @@ CREATE TABLE `quangcao` (
   `UrlImage` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Position` int(1) DEFAULT NULL,
   `Link` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `Description` text CHARACTER SET utf8 DEFAULT NULL,
-  `Content` text CHARACTER SET utf8 DEFAULT NULL,
+  `Description` text CHARACTER SET utf8,
+  `Content` text CHARACTER SET utf8,
   `Price` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `ViewCount` int(4) DEFAULT 0,
+  `ViewCount` int(4) DEFAULT '0',
   `Date` int(4) DEFAULT NULL,
-  `Active` tinyint(1) DEFAULT 1
+  `Active` tinyint(1) DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -588,7 +560,7 @@ CREATE TABLE `quantri` (
   `SDT` varchar(12) DEFAULT NULL,
   `DiaChi` varchar(100) CHARACTER SET utf8 DEFAULT NULL,
   `NgayDangKy` int(4) DEFAULT NULL,
-  `Active` tinyint(1) DEFAULT 1
+  `Active` tinyint(1) DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -610,12 +582,12 @@ CREATE TABLE `raovat` (
   `Alias` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `UrlImage` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Price` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `Description` text CHARACTER SET utf8 DEFAULT NULL,
-  `Content` text CHARACTER SET utf8 DEFAULT NULL,
+  `Description` text CHARACTER SET utf8,
+  `Content` text CHARACTER SET utf8,
   `Date` int(4) DEFAULT NULL,
   `SetHome` tinyint(1) DEFAULT NULL,
   `Start` int(4) DEFAULT NULL,
-  `Active` tinyint(1) DEFAULT 1,
+  `Active` tinyint(1) DEFAULT '1',
   `Seo_Title` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Seo_Description` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Seo_Keywords` varchar(255) CHARACTER SET utf8 DEFAULT NULL
@@ -742,7 +714,7 @@ CREATE TABLE `router` (
   `idObject` int(4) NOT NULL,
   `alias` varchar(255) CHARACTER SET utf8 NOT NULL,
   `type` tinyint(4) NOT NULL,
-  `active` tinyint(1) NOT NULL DEFAULT 1 COMMENT '1: san pham; 3: loai sp; 5 tin tuc; 7: loai tin tuc'
+  `active` tinyint(1) NOT NULL DEFAULT '1' COMMENT '1: san pham; 3: loai sp; 5 tin tuc; 7: loai tin tuc'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -772,10 +744,27 @@ INSERT INTO `router` (`id`, `idObject`, `alias`, `type`, `active`) VALUES
 (20, 3, 'tin-tuc', 7, 1),
 (21, 19, 'san-pham', 3, 1),
 (22, 13, 'thong-tin-cong-ty', 9, 1),
-(23, 1, 'giai-quyet-khieu-nai', 5, 1),
-(24, 3, 'huong-dan-mua-hang', 5, 1),
-(25, 5, 'chinh-sach-doi-tra', 5, 1),
-(26, 7, 'cham-soc-khach-hang', 5, 1);
+(27, 1, 'ten-san-pham', 1, 1),
+(28, 2, 'ten-san-pham-2', 1, 1),
+(29, 3, 'ten-san-pham-3', 1, 1),
+(30, 4, 'ten-san-pham-4', 1, 1),
+(31, 5, 'ten-san-pham-5', 1, 1),
+(32, 6, 'ten-san-pham-6', 1, 1),
+(33, 7, 'ten-san-pham-7', 1, 1),
+(34, 8, 'ten-san-pham-8', 1, 1),
+(35, 9, 'ten-san-pham-9', 1, 1),
+(36, 10, 'ten-san-pham-10', 1, 1),
+(37, 11, 'ten-san-pham-11', 1, 1),
+(38, 12, 'ten-san-pham-12', 1, 1),
+(39, 13, 'ten-san-pham-13', 1, 1),
+(40, 14, 'ten-san-pham-14', 1, 1),
+(41, 15, 'ten-san-pham-15', 1, 1),
+(42, 16, 'ten-san-pham-16', 1, 1),
+(43, 17, 'ten-san-pham-17', 1, 1),
+(44, 9, 'dich-vu-sua-chua-op-lat', 5, 1),
+(45, 11, 'dich-vu-sua-chua-op-lat-1', 5, 1),
+(46, 13, 'dich-vu-sua-chua-op-lat-2', 5, 1),
+(47, 15, 'dich-vu-sua-chua-op-lat-3', 5, 1);
 
 -- --------------------------------------------------------
 
@@ -789,13 +778,37 @@ CREATE TABLE `sanpham` (
   `Gia` int(4) NOT NULL,
   `UrlImage` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `HangSanXuat` varchar(100) CHARACTER SET utf8 DEFAULT NULL,
-  `Description` text CHARACTER SET utf8 DEFAULT NULL,
-  `Keywords` text CHARACTER SET utf8 DEFAULT NULL,
+  `Description` text CHARACTER SET utf8,
+  `Keywords` text CHARACTER SET utf8,
   `MaSP` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `SetHome` tinyint(1) DEFAULT NULL,
   `Date` int(4) NOT NULL,
-  `Active` tinyint(1) DEFAULT 1
+  `Active` tinyint(1) DEFAULT '1',
+  `CountView` int(4) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Đang đổ dữ liệu cho bảng `sanpham`
+--
+
+INSERT INTO `sanpham` (`id`, `idLoai`, `Gia`, `UrlImage`, `HangSanXuat`, `Description`, `Keywords`, `MaSP`, `SetHome`, `Date`, `Active`, `CountView`) VALUES
+(1, 1, 0, '/uploads/images/project-01-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL),
+(2, 1, 0, '/uploads/images/project-01-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL),
+(3, 1, 0, '/uploads/images/project-01-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL),
+(4, 1, 0, '/uploads/images/project-01-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL),
+(5, 1, 0, '/uploads/images/project-01-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL),
+(6, 1, 0, '/uploads/images/project-01-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL),
+(7, 1, 0, '/uploads/images/project-01-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL),
+(8, 1, 0, '/uploads/images/project-01-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL),
+(9, 1, 0, '/uploads/images/project-01-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL),
+(10, 6, 0, '/uploads/images/project-02-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL),
+(11, 6, 0, '/uploads/images/project-02-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL),
+(12, 6, 0, '/uploads/images/project-02-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL),
+(13, 6, 0, '/uploads/images/project-02-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL),
+(14, 6, 0, '/uploads/images/project-02-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL),
+(15, 6, 0, '/uploads/images/project-02-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL),
+(16, 6, 0, '/uploads/images/project-02-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL),
+(17, 6, 0, '/uploads/images/project-02-1280x1280.jpg', NULL, '', '', NULL, 1, 0, 1, NULL);
 
 -- --------------------------------------------------------
 
@@ -812,13 +825,36 @@ CREATE TABLE `sanpham_lang` (
   `NameShort` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Alias` varchar(255) CHARACTER SET utf8 NOT NULL,
   `Youtube` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `File` text CHARACTER SET utf8 DEFAULT NULL,
-  `CongDung` text CHARACTER SET utf8 DEFAULT NULL,
-  `CachDung` text CHARACTER SET utf8 DEFAULT NULL,
-  `ChongChiDinh` text CHARACTER SET utf8 DEFAULT NULL,
-  `MoTa` text CHARACTER SET utf8 DEFAULT NULL,
-  `Content` text CHARACTER SET utf8 DEFAULT NULL
+  `File` text CHARACTER SET utf8,
+  `CongDung` text CHARACTER SET utf8,
+  `CachDung` text CHARACTER SET utf8,
+  `ChongChiDinh` text CHARACTER SET utf8,
+  `MoTa` text CHARACTER SET utf8,
+  `Content` text CHARACTER SET utf8
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Đang đổ dữ liệu cho bảng `sanpham_lang`
+--
+
+INSERT INTO `sanpham_lang` (`id`, `idSP`, `idNgonNgu`, `BaoHanh`, `Name`, `NameShort`, `Alias`, `Youtube`, `File`, `CongDung`, `CachDung`, `ChongChiDinh`, `MoTa`, `Content`) VALUES
+(1, 1, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham', NULL, '', NULL, NULL, NULL, '', ''),
+(2, 2, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham', NULL, '', NULL, NULL, NULL, '', ''),
+(3, 3, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham', NULL, '', NULL, NULL, NULL, '', ''),
+(4, 4, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham', NULL, '', NULL, NULL, NULL, '', ''),
+(5, 5, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham', NULL, '', NULL, NULL, NULL, '', ''),
+(6, 6, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham', NULL, '', NULL, NULL, NULL, '', ''),
+(7, 7, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham', NULL, '', NULL, NULL, NULL, '', ''),
+(8, 8, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham', NULL, '', NULL, NULL, NULL, '', ''),
+(9, 9, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham', NULL, '', NULL, NULL, NULL, '', ''),
+(10, 10, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham', NULL, '', NULL, NULL, NULL, '', ''),
+(11, 11, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham', NULL, '', NULL, NULL, NULL, '', ''),
+(12, 12, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham', NULL, '', NULL, NULL, NULL, '', ''),
+(13, 13, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham', NULL, '', NULL, NULL, NULL, '', ''),
+(14, 14, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham-14', NULL, '', NULL, NULL, NULL, 'Cho dù bạn đang thiết kế cho văn phòng làm việc tại nhà của bạn nếu bạn có điều kiện hay đơn giản là một không gian thoải mái để chiếc máy tính xách tay và các thiết bị di động của bạn được gọn gàng cùng với cảm hứng khi bạn mang công việc về nhà hay thậm chí là giải trí. Dù bạn ở trọ hay ở nhà riêng thì chiếc bàn là vật dụng phổ biến và phải có trong căn phòng của bạn. Tùy thuộc vào nhu cầu của bạn, chúng tôi cung cấp các mẫu bàn làm việc tại nhà với các chức năng phù hợp với lối sống cá nhân của bạn\r\n', ''),
+(15, 15, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham', NULL, '', NULL, NULL, NULL, '', ''),
+(16, 16, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham', NULL, '', NULL, NULL, NULL, '', ''),
+(17, 17, 1, NULL, 'Tên sản phẩm', '', 'ten-san-pham', NULL, '', NULL, NULL, NULL, '', '');
 
 -- --------------------------------------------------------
 
@@ -856,11 +892,11 @@ CREATE TABLE `single_page` (
   `set_menu` tinyint(4) NOT NULL,
   `name` varchar(255) CHARACTER SET utf8 NOT NULL,
   `urlImage` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `description` text CHARACTER SET utf8 DEFAULT NULL,
-  `content` text CHARACTER SET utf8 DEFAULT NULL,
+  `description` text CHARACTER SET utf8,
+  `content` text CHARACTER SET utf8,
   `seo_description` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `seo_keywords` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `active` tinyint(1) NOT NULL DEFAULT 1
+  `active` tinyint(1) NOT NULL DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -883,12 +919,12 @@ INSERT INTO `single_page` (`id`, `set_home`, `set_menu`, `name`, `urlImage`, `de
 
 CREATE TABLE `slide` (
   `id` int(4) NOT NULL,
-  `Type` tinyint(1) DEFAULT 0 COMMENT '0:banner\r\n1:hinhanhcongty',
+  `Type` tinyint(1) DEFAULT '0' COMMENT '0:banner\r\n1:hinhanhcongty',
   `TieuDe` varchar(100) CHARACTER SET utf8 DEFAULT NULL,
   `UrlImage` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Link` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `SetHome` tinyint(1) DEFAULT NULL,
-  `Active` tinyint(1) DEFAULT 1
+  `Active` tinyint(1) DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -912,7 +948,7 @@ CREATE TABLE `slide_lang` (
   `idSlide` int(4) DEFAULT NULL,
   `idNgonNgu` tinyint(1) DEFAULT NULL,
   `Name` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `Description` text CHARACTER SET utf8 DEFAULT NULL
+  `Description` text CHARACTER SET utf8
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -940,7 +976,7 @@ CREATE TABLE `tags` (
   `id` int(4) NOT NULL,
   `Name` varchar(255) CHARACTER SET utf8 NOT NULL,
   `Alias` varchar(255) DEFAULT NULL,
-  `Active` tinyint(1) DEFAULT 1
+  `Active` tinyint(1) DEFAULT '1'
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
@@ -977,7 +1013,7 @@ CREATE TABLE `tags_tintuc` (
 CREATE TABLE `thongtinchung` (
   `id` int(4) NOT NULL,
   `idNgonNgu` tinyint(1) DEFAULT NULL,
-  `Address` text CHARACTER SET utf8 DEFAULT NULL,
+  `Address` text CHARACTER SET utf8,
   `Company` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Favicon` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Logo` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
@@ -995,7 +1031,7 @@ CREATE TABLE `thongtinchung` (
   `Pinterest` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Tumblr` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Skype` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `Abouts` text CHARACTER SET utf8 DEFAULT NULL,
+  `Abouts` text CHARACTER SET utf8,
   `MessengerFB` varchar(255) CHARACTER SET utf8 DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -1004,8 +1040,8 @@ CREATE TABLE `thongtinchung` (
 --
 
 INSERT INTO `thongtinchung` (`id`, `idNgonNgu`, `Address`, `Company`, `Favicon`, `Logo`, `Slogan`, `LogoMobile`, `Banner`, `Email`, `Fax`, `Phone`, `Tel`, `Facebook`, `Twitter`, `Google`, `Youtube`, `Pinterest`, `Tumblr`, `Skype`, `Abouts`, `MessengerFB`) VALUES
-(1, 1, ' 522-524  Nguyễn Chí Thanh, Phường 7, Quận 10, Thành phố Hồ Chí Minh', 'BÁC SĨ THẨM MỸ LÊ MAI HỮU', '/uploads/images/logo%20saigonhalo%20rong%20nen-01.png', '/uploads/images/logo%20saigonhalo%20rong%20nen-01.png', '/uploads/files/coverfb.png', '/uploads/images/logo%20saigonhalo%20rong%20nen-01.png', '/uploads/files/banner%20tet.jpg', 'dr.huu.thammy@gmail.com', '', '0933077766', '0933077766', 'https://www.facebook.com/', 'https://twitter.com', '', 'https://www.youtube.com', 'https://www.pinterest.com', 'https://www.tumblr.com', NULL, 'Chúng tôi sáng lập ra công ty Vnetcom  từ năm 2008 xuất phát từ niềm đam mê cái đẹp và văn hóa Việt. .Chúng tôi định hướng Vnetcom là một doanh nghiệp chuyên sâu về mỹ thuật ứng dụng và marketing online. Với sứ mệnh mang đến cho doanh nghiệp những giá trị sáng tạo có tính ứng dụng và mỹ thuật, thể hiện rõ bản sắc văn hóa Việt cũng như mang đến cho quý đối tác những giải pháp marketing, truyền thông hiệu quả cho việc phát triển kinh doanh, xây dựng thương hiệu Việt xứng tầm.', 'https://www.messenger.com/t/inantuankhoakhoi/'),
-(2, 2, ' 522-524  Nguyễn Chí Thanh, Phường 7, Quận 10, Thành phố Hồ Chí Minh', 'BÁC SĨ THẨM MỸ LÊ MAI HỮU', '/uploads/images/logo%20saigonhalo%20rong%20nen-01.png', '/uploads/images/logo%20saigonhalo%20rong%20nen-01.png', '/uploads/files/coverfb.png', '/uploads/images/logo%20saigonhalo%20rong%20nen-01.png', '/uploads/files/banner%20tet.jpg', 'dr.huu.thammy@gmail.com', '', '0933077766', '0933077766', 'https://www.facebook.com/', 'https://twitter.com', '', 'https://www.youtube.com', 'https://www.pinterest.com', 'https://www.tumblr.com', NULL, 'Chúng tôi sáng lập ra công ty Vnetcom  từ năm 2008 xuất phát từ niềm đam mê cái đẹp và văn hóa Việt. .Chúng tôi định hướng Vnetcom là một doanh nghiệp chuyên sâu về mỹ thuật ứng dụng và marketing online. Với sứ mệnh mang đến cho doanh nghiệp những giá trị sáng tạo có tính ứng dụng và mỹ thuật, thể hiện rõ bản sắc văn hóa Việt cũng như mang đến cho quý đối tác những giải pháp marketing, truyền thông hiệu quả cho việc phát triển kinh doanh, xây dựng thương hiệu Việt xứng tầm.', 'https://www.messenger.com/t/inantuankhoakhoi/');
+(1, 1, '164 Nguyễn Văn Cách-KP2 - P.Phú Khương - Bến Tre', 'Trang trí nội thất', '/uploads/files/logo.png', '/uploads/files/logo.png', '/uploads/files/coverfb.png', '/uploads/images/logo%20saigonhalo%20rong%20nen-01.png', '/uploads/files/banner%20tet.jpg', 'dr.huu.thammy@gmail.com', ' 0796 791 968', ' 0796 791 968', ' 0796 791 968', 'https://www.facebook.com/', 'https://twitter.com', '', 'https://www.youtube.com', 'https://www.pinterest.com', 'https://www.tumblr.com', NULL, 'Chúng tôi sáng lập ra công ty Vnetcom  từ năm 2008 xuất phát từ niềm đam mê cái đẹp và văn hóa Việt. .Chúng tôi định hướng Vnetcom là một doanh nghiệp chuyên sâu về mỹ thuật ứng dụng và marketing online. Với sứ mệnh mang đến cho doanh nghiệp những giá trị sáng tạo có tính ứng dụng và mỹ thuật, thể hiện rõ bản sắc văn hóa Việt cũng như mang đến cho quý đối tác những giải pháp marketing, truyền thông hiệu quả cho việc phát triển kinh doanh, xây dựng thương hiệu Việt xứng tầm.', 'https://www.messenger.com/t/inantuankhoakhoi/'),
+(2, 2, '164 Nguyễn Văn Cách-KP2 - P.Phú Khương - Bến Tre', 'Trang trí nội thất', '/uploads/files/logo.png', '/uploads/files/logo.png', '/uploads/files/coverfb.png', '/uploads/images/logo%20saigonhalo%20rong%20nen-01.png', '/uploads/files/banner%20tet.jpg', 'dr.huu.thammy@gmail.com', ' 0796 791 968', ' 0796 791 968', ' 0796 791 968', 'https://www.facebook.com/', 'https://twitter.com', '', 'https://www.youtube.com', 'https://www.pinterest.com', 'https://www.tumblr.com', NULL, 'Chúng tôi sáng lập ra công ty Vnetcom  từ năm 2008 xuất phát từ niềm đam mê cái đẹp và văn hóa Việt. .Chúng tôi định hướng Vnetcom là một doanh nghiệp chuyên sâu về mỹ thuật ứng dụng và marketing online. Với sứ mệnh mang đến cho doanh nghiệp những giá trị sáng tạo có tính ứng dụng và mỹ thuật, thể hiện rõ bản sắc văn hóa Việt cũng như mang đến cho quý đối tác những giải pháp marketing, truyền thông hiệu quả cho việc phát triển kinh doanh, xây dựng thương hiệu Việt xứng tầm.', 'https://www.messenger.com/t/inantuankhoakhoi/');
 
 -- --------------------------------------------------------
 
@@ -1017,7 +1053,7 @@ CREATE TABLE `thumbnails` (
   `id` int(11) NOT NULL,
   `idSP` int(11) DEFAULT NULL,
   `UrlImage` varchar(300) CHARACTER SET utf8 DEFAULT NULL,
-  `Active` tinyint(1) DEFAULT 1
+  `Active` tinyint(1) DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -1034,13 +1070,13 @@ CREATE TABLE `tintuc` (
   `UrlImage` varchar(255) CHARACTER SET utf8 NOT NULL,
   `NguoiDang` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Date` int(4) DEFAULT NULL,
-  `SetHome` tinyint(1) DEFAULT 0,
-  `set_care` tinyint(1) DEFAULT 0,
-  `Seo_Keywords` text CHARACTER SET utf8 DEFAULT NULL,
-  `Seo_Description` text CHARACTER SET utf8 DEFAULT NULL,
+  `SetHome` tinyint(1) DEFAULT '0',
+  `set_care` tinyint(1) DEFAULT '0',
+  `Seo_Keywords` text CHARACTER SET utf8,
+  `Seo_Description` text CHARACTER SET utf8,
   `mo_rong` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `ViewCount` int(4) DEFAULT NULL,
-  `Active` tinyint(1) DEFAULT 1
+  `Active` tinyint(1) DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -1048,10 +1084,13 @@ CREATE TABLE `tintuc` (
 --
 
 INSERT INTO `tintuc` (`id`, `idNguoiDang`, `idLoaiTin`, `idTags`, `UrlImage`, `NguoiDang`, `Date`, `SetHome`, `set_care`, `Seo_Keywords`, `Seo_Description`, `mo_rong`, `ViewCount`, `Active`) VALUES
-(1, 4, 1, '[0]', 'aaa', NULL, 1567779649, 0, 0, '', '', '', NULL, 1),
-(2, 4, 1, '[0]', 'bbbb', NULL, 1567779666, 0, 0, '', '', '', NULL, 1),
-(3, 4, 1, '[0]', 'bbb', NULL, 1567779683, 0, 0, '', '', '', NULL, 1),
-(4, 4, 1, '[0]', 'ff', NULL, 1567779698, 0, 0, '', '', '', NULL, 1);
+(5, 4, 1, '[0]', '/uploads/images/project-04-1280x1280.jpg', NULL, 1567878468, 0, 0, '', '', '', NULL, 1),
+(6, 4, 1, '[0]', '/uploads/images/project-04-1280x1280.jpg', NULL, 1567878477, 1, 0, '', '', '', NULL, 1),
+(7, 4, 1, '[0]', '/uploads/images/project-04-1280x1280.jpg', NULL, 1567878482, 1, 0, '', '', '', NULL, 1),
+(8, 4, 1, '[0]', '/uploads/images/project-04-1280x1280.jpg', NULL, 1567878490, 1, 0, '', '', '', NULL, 1),
+(9, 4, 1, '[0]', '/uploads/images/project-04-1280x1280.jpg', NULL, 1567878494, 1, 0, '', '', '', NULL, 1),
+(10, 4, 1, '[0]', '/uploads/images/project-04-1280x1280.jpg', NULL, 1567878498, 1, 0, '', '', '', NULL, 1),
+(11, 4, 1, '[0]', '/uploads/images/project-04-1280x1280.jpg', NULL, 1567878502, 1, 0, '', '', '', NULL, 1);
 
 -- --------------------------------------------------------
 
@@ -1065,8 +1104,8 @@ CREATE TABLE `tintuc_lang` (
   `idTinTuc` int(4) DEFAULT NULL,
   `Name` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Alias` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `Description` text CHARACTER SET utf8 DEFAULT NULL,
-  `Content` text CHARACTER SET utf8 DEFAULT NULL
+  `Description` text CHARACTER SET utf8,
+  `Content` text CHARACTER SET utf8
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -1081,7 +1120,15 @@ INSERT INTO `tintuc_lang` (`id`, `idNgonNgu`, `idTinTuc`, `Name`, `Alias`, `Desc
 (5, 1, 3, 'Chính sách đổi trả', 'chinh-sach-doi-tra', '', ''),
 (6, 2, 3, '3', '3', '', ''),
 (7, 1, 4, 'Chăm sóc khách hàng', 'cham-soc-khach-hang', '', ''),
-(8, 2, 4, '4', '4', '', '');
+(8, 2, 4, '4', '4', '', ''),
+(9, 1, 5, 'Dịch vụ sửa chữa ốp lát', 'dich-vu-sua-chua-op-lat', 'Chúng tôi phân tích kỹ lưỡng từng trường hợp cụ thể , có kế hoạch điều trị hợp lý trên nguyên tắc hạn chế  tối đa', ''),
+(10, 2, 5, '5', '5', '', ''),
+(11, 1, 7, 'Dịch vụ sửa chữa ốp lát 1', 'dich-vu-sua-chua-op-lat-1', 'Chúng tôi phân tích kỹ lưỡng từng trường hợp cụ thể , có kế hoạch điều trị hợp lý trên nguyên tắc hạn chế  tối đa', ''),
+(12, 2, 7, '7', '7', '', ''),
+(13, 1, 9, 'Dịch vụ sửa chữa ốp lát 2', 'dich-vu-sua-chua-op-lat-2', 'Chúng tôi phân tích kỹ lưỡng từng trường hợp cụ thể , có kế hoạch điều trị hợp lý trên nguyên tắc hạn chế  tối đa', ''),
+(14, 2, 9, '9', '9', '', ''),
+(15, 1, 11, 'Dịch vụ sửa chữa ốp lát 3', 'dich-vu-sua-chua-op-lat-3', 'Chúng tôi phân tích kỹ lưỡng từng trường hợp cụ thể , có kế hoạch điều trị hợp lý trên nguyên tắc hạn chế  tối đa', ''),
+(16, 2, 11, '11', '11', '', '');
 
 -- --------------------------------------------------------
 
@@ -1097,10 +1144,10 @@ CREATE TABLE `video` (
   `Link` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `Date` int(4) DEFAULT NULL,
   `UrlImage` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `Description` text CHARACTER SET utf8 DEFAULT NULL,
-  `SetHome` text CHARACTER SET utf8 DEFAULT NULL,
-  `Footer` tinyint(1) DEFAULT 0,
-  `Active` tinyint(1) DEFAULT 1
+  `Description` text CHARACTER SET utf8,
+  `SetHome` text CHARACTER SET utf8,
+  `Footer` tinyint(1) DEFAULT '0',
+  `Active` tinyint(1) DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -1124,8 +1171,8 @@ INSERT INTO `video` (`id`, `idCategory`, `Name`, `Alias`, `Link`, `Date`, `UrlIm
 CREATE TABLE `video_category` (
   `id` int(4) NOT NULL,
   `name` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `id_parent` int(4) DEFAULT 0,
-  `active` tinyint(1) NOT NULL DEFAULT 1
+  `id_parent` int(4) DEFAULT '0',
+  `active` tinyint(1) NOT NULL DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -1148,7 +1195,7 @@ CREATE TABLE `video_setting` (
   `id` int(4) NOT NULL,
   `name` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
   `urlImage` varchar(255) CHARACTER SET utf8 DEFAULT NULL,
-  `description` text CHARACTER SET utf8 DEFAULT NULL
+  `description` text CHARACTER SET utf8
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -1477,13 +1524,13 @@ ALTER TABLE `gioithieu_lang`
 -- AUTO_INCREMENT cho bảng `hinhanh`
 --
 ALTER TABLE `hinhanh`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- AUTO_INCREMENT cho bảng `loaihinhanh`
 --
 ALTER TABLE `loaihinhanh`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT cho bảng `loaiquangcao`
@@ -1561,19 +1608,19 @@ ALTER TABLE `role_permission`
 -- AUTO_INCREMENT cho bảng `router`
 --
 ALTER TABLE `router`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
 
 --
 -- AUTO_INCREMENT cho bảng `sanpham`
 --
 ALTER TABLE `sanpham`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT cho bảng `sanpham_lang`
 --
 ALTER TABLE `sanpham_lang`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT cho bảng `sessions`
@@ -1627,13 +1674,13 @@ ALTER TABLE `thumbnails`
 -- AUTO_INCREMENT cho bảng `tintuc`
 --
 ALTER TABLE `tintuc`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT cho bảng `tintuc_lang`
 --
 ALTER TABLE `tintuc_lang`
-  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT cho bảng `video`
