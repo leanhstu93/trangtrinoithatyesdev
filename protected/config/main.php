@@ -109,6 +109,7 @@ return array(
 				'tin-tuc/<alias>' => 'site/Chitiet' ,
 				'loai-tin/<alias>' => 'site/loaitin',
 				'loai-tin' => 'site/loaitin',
+                'san-pham' => 'site/loaisp',
 				'lien-he' =>'site/lienhe',
 				'Languagechange/<lang>' => 'site/languagechange',
 

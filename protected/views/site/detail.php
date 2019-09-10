@@ -1,141 +1,73 @@
-<main>
-    <div class="hd-container">
-        <div class="mainpage">
-            <?php
-            $arrBread[0]["Name"] = $model->Name;
-            $criteria = new CDbCriteria();
-            $criteria->with = "loaitin_lang";
-            $criteria->condition = "idNgonNgu = $this->lang and Active = 1";
-            $criteria->order = "t.id desc";
-            $criteria->addInCondition("idLoaiTin",$this->arridloai);
-            $arrloai = Loaitin::model()->findAll($criteria);
-            $j = 0;
-            for ($i= (count($arrloai)-1); $i >= 0; $i--) {
-                $j++;
-                $arrBread[$j]["Name"] = $arrloai[$i]->loaitin_lang->Name;
-                $routerCateNews = Router::model()->find("idObject = " . $arrloai[$i]->loaitin_lang->id . " AND type = " . Router::TYPE_NEWS_CATEGORY);
-                $arrBread[$j]["Href"] = $routerCateNews->alias.'.html';
-            }
-            $this->renderPartial("//layouts/breadcrumb",array('data'=>$arrBread));
-            $hinhanh = Hinhanh::getDataByCustomSetting('home_banner_trang_con');
-            ?>
-            <div class="detail">
+<section class="container">
+    <div class="w1000">
+        <div class="page-news-wrap-detail w100">
+            <?php $this->renderPartial("menuleft");?>
+            <div class="right page-news-detail">
+                <div class="w100">
+                    <?php
 
-                <div class="bannertop"><div id='polyad_ads_zone3' style="text-align: center">
-                        <a target="_blank" href="<?php echo $hinhanh->hinhanh->link ?>">
-                            <img src="<?php echo $hinhanh->hinhanh->url_image ?>">
-                        </a>
-                    </div>
+                    $arrBread[0]["Name"] = $model->Name;
+                    $criteria = new CDbCriteria();
+                    $criteria->with = "loaitin_lang";
+                    $criteria->condition = "idNgonNgu = $this->lang and Active = 1";
+                    $criteria->order = "t.id desc";
+                    $criteria->addInCondition("idLoaiTin",$this->arridloai);
+                    $arrloai = Loaitin::model()->findAll($criteria);
+                    $j = 0;
+                    for ($i= (count($arrloai)-1); $i >= 0; $i--) {
+                        # code...
+                        $j++;
+                        $arrBread[$j]["Name"] = $arrloai[$i]->loaitin_lang->Name;
+                        $arrBread[$j]["Href"] = "/loai-tin/".$arrloai[$i]->loaitin_lang->Alias.".html";
+                    }
+                    $this->renderPartial("//layouts/breadcrumb-news",array('data'=>$arrBread));?>
+                    <div class="line w100"> <img class="w100" src="/images/line.jpg"> </div>
                 </div>
-                <h1 class="title"><?php echo $model->Name ?>    </h1>
-                <section class="detailct">
-                    <div class="sapo">
-                        <p style="text-align: justify;">
-                            <?php echo html_entity_decode($model->Description) ?>
-                        </p>
-                    </div>
-                    <?php echo html_entity_decode($model->Content) ?>
-                    <div class="wrp-share">
-                        <div class="fb-like" data-href="http://<?php echo $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] ?>" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-                    </div>
-<!--                    <div class="Ta__btn-tuvan">-->
-<!--                        <a rel="nofollow" href="#Ta__js-tu-van" data-toggle="modal" class="regist btnkn2tv">Đăng kí tư vấn</a>-->
-<!--                    </div>-->
-                    <?php $this->renderPartial("rating",array('data'=>$model)); ?>
-                    <?php $this->renderPartial("//layouts/form-tu-van"); ?>
-                    <div class="wrp-comment w100">
-                        <?php $this->renderPartial("//layouts/comment"); ?>
-                    </div>
-                    <!-- kk-star-ratings -->
+                <div class="tieude-news w100"><?php echo $model->Name ?></div>
+                <div class="time-stamp">
 
-                    <br clear="both" />
-                    <!-- comment -->
-                </section>
+                    <small class="date"><i class="fa fa-clock-o"></i> <?php echo date("d/m/Y",$model->tintuc->Date) ?></small> |
+                    <small> <i class="fa fa-user"></i> <?php echo $model->tintuc->quantri->HoTen ?></small> |
+                    <small> <i class="fa fa-eye" aria-hidden="true"></i>  <?php echo $model->tintuc->ViewCount ?> </small>
+                </div>
+                <div class="des-newsdetail w100"><?php echo $model->Description ?></div>
+                <div class="ct-newsdetail w100">
+                    <?php echo $model->Content ?>
+                </div>
+                <div class="clear"></div>
+                <style type="text/css">
+                    .share-news li img{width: 100%}
+                    .share-news li{
+                        float: right;
+                        width: 30px;
+                    }
+                </style>
 
-                <section class="detailct">
-                    <article class="sv_other svo2">
-                        <h3 class="hd-large">CÁC TIN NỔI BẬT</h3>
-                        <ul>
-                            <?php
-                            $criteria = new CDbCriteria();
-                            $criteria->with = "sanpham_lang";
-                            $criteria->condition = "idNgonNgu = $this->lang and Active = 1";
-                            $criteria->order = "t.id desc";
-                            $criteria->limit = 5;
-                            $data = Sanpham::model()->findAll($criteria);
-                            if (!empty($data)) {
-                                foreach ($data as $item) {
-                                    $router = Router::model()->find("idObject = ". $item->sanpham_lang->id ." AND type = ".Router::TYPE_PRODUCT);
-                                    ?>
-                                    <li>
-                                        <a href="<?php echo $router->alias ?>.html">
-                                            <img style="max-width:80px;"
-                                                 src="<?php echo $item->UrlImage  ?>"
-                                                 alt="<?php echo $item->sanpham_lang->Name ?>">
-                                        </a>
-                                        <a href="<?php echo $router->alias ?>.html"
-                                           title="<?php echo $item->sanpham_lang->Name ?>">
-                                            <?php echo $item->sanpham_lang->Name ?>
-                                        </a>
-                                    </li>
-                                    <?php
-                                }
-                            }
-                            ?>
-                        </ul>
-                    </article>
-                </section>
-
+                <?php $this->renderPartial("//layouts/comment");?>
+                <div class="rela-news w100">
+                    <div class="head">Tin liên quan</div>
+                    <div class="line w100">
+                        <img class="w100" src="/images/line.jpg">
+                    </div>
+                    <ul class="w100">
+                        <?php
+                        $tlq = Common::postRelated($model->id,$model->tintuc->idLoaiTin,$this->lang);
+                        if(isset($tlq)){
+                            foreach ($tlq as $key => $value) {
+                                $router = Router::model()->find("idObject = ". $value->id ." AND type = ".Router::TYPE_NEWS);
+                                ?>
+                                <li>
+                                    <a href="/tin-tuc/<?php echo $router->alias ?>.html" class="fa fa-link">
+                                        <img width="100px" class="icon-arrow" src="<?php echo $value->UrlImage ?>">
+                                        <label><?php echo $value->tintuc_lang->Name; ?></label>
+                                    </a>
+                                </li>
+                            <?php }
+                        }
+                        ?>
+                    </ul>
+                </div>
             </div>
         </div>
-        <?php $this->renderPartial('sidebar'); ?>
     </div>
-</main>
-
-<div class='ht-lq w100 site-foot'>
-    <div class='hd-container'>
-        <h3 class='title'>CÁC TIN LIÊN QUAN</h3>
-        <div class='hd-row'>
-            <?php
-            $data = Loaitin::getDataByCustomSetting('list_lien_quan');
-            $routerCateNews = Router::model()->find("idObject = ". $data->category->loaitin_lang->id ." AND type = ".Router::TYPE_NEWS_CATEGORY);
-            if(!empty($data->post)){
-                $i = 0;
-                foreach ($data->post as $item){
-                    $j = $i + 1;
-                    ?>
-                    <?php
-                    if($i == 0 || $i == 5 || $i == 10){
-                        ?>
-                        <div class="hd-col m3 ">
-                        <figure>
-                        <a title="<?php echo $item->tintuc_lang->Name ?>"
-                           href="<?php echo $router->alias ?>.html">
-                            <img src="<?php echo $item->UrlImage ?>"
-                                 alt="<?php echo $item->tintuc_lang->Name ?>"
-                                 title="<?php echo $item->tintuc_lang->Name ?>">
-                        </a>
-                        <figcaption>
-                        <ul>
-                        <?php $i++; continue; } ?>
-                    <li>
-                        <a title="<?php echo $item->tintuc_lang->Name ?>"
-                           href="<?php echo $router->alias ?>.html">
-                            <?php echo $item->tintuc_lang->Name ?>
-                        </a>
-                    </li>
-                    <?php if($j % 5 == 0 || $j == count($data->post) ) { ?>
-                        </ul>
-                        </figcaption>
-
-                        </figure>
-                        </div>
-                        <?php
-                    }
-                    $i++;
-                }
-            }
-            ?>
-        </div>
-    </div>
-</div>
+</section>

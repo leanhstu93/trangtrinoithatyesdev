@@ -108,7 +108,8 @@ class SinglePageController extends Controller
 		// $this->performAjaxValidation($model);
 		$criteria = new CDbCriteria();
         $criteria->condition = "type = ".Router::TYPE_SINGLE_PAGE." AND idObject = ".$model->id;
-        $router = Router::model()->find($criteria);	
+        $router = Router::model()->find($criteria);
+
 		if(isset($_POST['SinglePage']))
 		{
 			extract($_POST['SinglePage']);

@@ -744,7 +744,7 @@ class SiteController extends Controller {
         else
             $this->render("404");
     }
-     public function actionLoaisp($id)
+     public function actionLoaisp($id = null)
     {
         if($id != null)
         {
@@ -791,7 +791,7 @@ class SiteController extends Controller {
             $criteria->order = "t.id desc";
             $sp = Sanpham::model()->findAll($criteria);
             $this->pageTitle = $this->ngonngu[165];
-            $this->render("loaisp",array('sp' => $sp,'pages'=>$pages));
+            $this->render("loaisp",array('data' => $sp,'pages'=>$pages));
         }
     }
 }

@@ -10,34 +10,45 @@
            Trang chủ
        </a>
    </li>
-   <?php
-   $criteria = new CDbCriteria();
-   $criteria->with = "gioithieu_lang";
-   $criteria->condition = "Active = 1 and idNgonNgu = $this->lang";
-   $criteria->order = "t.id";
-   $gt = Gioithieu::model()->find($criteria);?>
-   <li>
-     <a href="/gioi-thieu/<?php echo $gt->gioithieu_lang->Alias ?>.html"><?php echo $gt->gioithieu_lang->Name ?></a>
-   </li>
-    <?php
+    <?php $criteria = new CDbCriteria();
+    $criteria->condition = "active = 1 and set_menu = 1";
+    $criteria->limit = 3;
+    $criteria->order = 'id DESC';
+    $model = SinglePage::model()->findAll($criteria);
+    $count = SinglePage::model()->count($criteria);
+    if ($count > 0) {
+        foreach ($model as $key => $value) {
+            $router = Router::model()->find("idObject = " . $value->id . " AND type = " . Router::TYPE_SINGLE_PAGE); ?>
+            <li class="hd-dropdown-hover"><a
+                        href='/<?php echo $router->alias ?>.html'> <?php echo $value->name ?> </a>
+            </li>                <?php }
+    } ?>
+    <li class="dropdown-submenu has-sub">
+        <a href="javasctipt:;">
+            Sản phẩm
+        </a>
+        <ul>
+            <?php
 
-    $criteria = new CDbCriteria();
+            $criteria = new CDbCriteria();
 
-    $criteria->with = "loaisanpham_lang";
+            $criteria->with = "loaisanpham_lang";
 
-    $criteria->condition ="Active = 1 and Parent = 0 and idNgonNgu = $this->lang" ;
+            $criteria->condition ="Active = 1 and Parent = 0 and idNgonNgu = $this->lang" ;
 
-    $criteria->order = "t.Order";
+            $criteria->order = "t.Order";
 
-    $model = Loaisanpham::model()->findAll($criteria);
+            $model = Loaisanpham::model()->findAll($criteria);
 
-    $count = Loaisanpham::model()->count($criteria);
+            $count = Loaisanpham::model()->count($criteria);
 
-    foreach ($model as $key => $value) {
-        Common::menudacap4($value->id,"Loaisanpham",$this->lang);
-    }
+            foreach ($model as $key => $value) {
+                Common::menudacap4($value->id,"Loaisanpham",$this->lang);
+            }
 
-    ?>
+            ?>
+        </ul>
+    </li>
       <?php 
        $criteria = new CDbCriteria();
        $criteria->with = "loaitin_lang";
